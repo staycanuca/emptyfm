@@ -33,13 +33,16 @@ async function fetchFMStations() {
 
   let fmList = document.getElementById("fmlist");
 
-  fmList.InnerHTML = "";
+  fmList.innerHTML = "";
   for (var k in stations) {
     let atag = document.createElement("a");
     atag.className = "fmitem";
     atag.href = stations[k].url;
     atag.innerText = stations[k].name;
-    atag.onclick = () => alert(atag.href);
+    atag.onclick = (e) => {
+      e.preventDefault();
+      changeSource(atag.href);
+    }
 
     fmList.appendChild(atag);
   }
@@ -47,8 +50,25 @@ async function fetchFMStations() {
 
 function changeSource(url) {
   player = videojs('emptyfm');
-  player.src({ type: 'application/x-mpegURL', src: url });
+  mediaType = fetchMediaType(url);
+  player.src({ type: mediaType, src: url });
   player.play();
+}
+
+function fetchMediaType(url) {
+  last = url.split("/").pop();
+  switch (last) {
+    case "stream":
+      return "audio/mpeg";
+    default:
+      ext = last.split(".").pop();
+      switch (ext) {
+        case "m3u8":
+	  return "application/x-mpegURL";
+        default:
+	  return "audio/mpeg";
+      }
+  }
 }
 
 function listCountries() {
