@@ -6,25 +6,48 @@
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <style>
     body {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 2.5em;
+      margin: 0;
+      padding: 0;
       font-family: sans-serif;
       font-size: 17px;
       color: #222;
       background-color: #FCE3A5;
     }
 
-    header {
-      margin: 2em auto;
-      padding: 1em;
-      border: 3px solid #444;
-      background-color: #E97C7C;
-      box-sizing: border-box;
+    .logo {
+      padding: 0.5em;
+      border-bottom: 3px solid #444;
     }
 
-    .form-item {
-      margin: 1em;
+    header,
+    .fmstations {
+      position: fixed;
+      width: 300px;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      border-right: 3px solid #444;
+      background-color: #E97C7C;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .fmstations {
+      background-color: transparent;
+      width: 240px;
+      margin-left: 300px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .form-item,
+    .fmstations a {
+      margin: 0.7em 0.5em;
+    }
+
+    a {
+      color: #000;
     }
 
     .form-item:last-child {
@@ -33,6 +56,7 @@
 
     select,
     button {
+      width: 100%;
       height: 32px;
       font-size: 17px;
       box-sizing: border-box;
@@ -44,6 +68,10 @@
       border: 1px solid #000;
       color: white;
       cursor: pointer;
+    }
+
+    #emptyfm {
+      margin-left: 500px;
     }
   </style>
 </head>
@@ -71,11 +99,16 @@
       <button onclick="fetchFMStations()">Find stations</button>
     </div>
   </header>
-  
+
+  <div class="fmstations" id="fmlist">
+    <a href="/">Kodai FM</a>
+  </div>
   
   <video
     id="emptyfm"
-    class="video-js vjs-default-skin vjs-16-9"
+    class="video-js vjs-default-skin"
+    width="300px"
+    height="300px"
     controls
     preload="auto"
     poster="https://img.freepik.com/free-photo/radio-nature-concept_23-2150246091.jpg?w=740&t=st=1710837307~exp=1710837907~hmac=406857451731b48b11d0cb06346e6346e3891e5392c09cb977e77901e6432826"
@@ -83,9 +116,6 @@
     muted="muted"
     data-setup="{}"
   >
-    <source 
-    	src="https://air.pc.cdn.bitgravity.com/air/live/pbaudio051/playlist.m3u8"
-	type="application/x-mpegURL">
   </video>
 
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
