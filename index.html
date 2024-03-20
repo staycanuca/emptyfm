@@ -7,72 +7,84 @@
         href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF4SURBVHgB7Zj/jURQEMfH5f7cLWC3gG1AAwqgAA1QgAYoQAEUQAEUQAEKoAAK4P+7+74ccbJ7e/Eum4nMJ5H48cT7mJk3wTBN84MOwBsdBBHhhohwQ0S4ISLcEBFuiAg3RIQbhxF5p3/gfD6T67rkOA5dLhd1rus6yrKMyrJ8eu/pdFL70zTROI60B0P3C/F6vVKSJIvAlr7vyfd9Gobh7nXP89QGmqZRY/eglVrPJOYxiIxt23ev3263ZX9vNIBWan1F84dEURRU17WaENJsnjzSJwxDJZWm6TIex5ZlLceIyF60RNZvGRJRFNF6Um3bUhAEyzmkEO6BLOpiLQGqqqK9aIms0wKT25LnuRKK43iJHKKAhWELIvWojv6CVo1glcHDsT3Kb6xeKODfVi9IrFNuD8Yr/2uhppBOiA7EIQlBnSKfMY7yg04a4ow0xG+kIW6QhgikIW6QhrjiMA1Rvtm5ISLcEBFuiAg3RIQbIsINEeHGYUQ+AbWJ/va1HA5qAAAAAElFTkSuQmCC">
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <style>
+    :root {
+      --bg: #fff;
+      --fg: #333;
+      --alt: #b7b7b7;
+    }
+
+    @font-face {
+      font-family: 'JetBrains Mono';
+      font-style: normal;
+      font-weight: normal;
+      src: local('JetBrains Mono Regular'), url('/fonts/jetbrains-mono/JetBrainsMonoRegular.woff2') format('woff');
+      font-display: swap;
+    }
+
     body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      font-size: 17px;
-      color: #222;
-      background-color: #FCE3A5;
+      font-size: 14px;
+      line-height: 1.5;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 0 2em;
+      margin: 3em auto;
+      background-color: var(--bg);
+      color: var(--fg);
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: -.02em;
+      max-width: 590px;
     }
 
     .logo {
-      padding: 0.5em;
-      border-bottom: 3px solid #444;
+      display: block;
+      margin-bottom: 2em;
     }
 
-    header,
-    .fmstations {
-      position: fixed;
-      width: 300px;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-      border-right: 3px solid #444;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .fmstations {
-      width: 240px;
-      margin-left: 300px;
-      overflow-x: hidden;
-      overflow-y: auto;
-    }
-
-    .form-item,
-    .fmstations a {
-      margin: 0.7em 0.5em;
-    }
-
-    a {
-      color: #000;
-    }
-
-    .form-item:last-child {
-      margin-top: 2em;
+    a,
+    a:visited {
+      color: var(--fg);
+      text-underline-offset: .25em;
+      text-decoration-thickness: 1px
     }
 
     select,
     button {
       width: 100%;
       height: 32px;
-      font-size: 17px;
+      font-size: 14px;
       box-sizing: border-box;
+      margin-bottom: 1em;
     }
 
     button {
       padding: 0 1em;
       background: #15C;
-      border: 1px solid #000;
+      border: 1px solid var(--fg);
       color: white;
       cursor: pointer;
+      margin-top: 1em;
+    }
+
+    #fmlist {
+      display: flex;
+      flex-direction: column;
+      margin: 1em 0 4em;
+    }
+
+    #fmlist a {
+      margin-bottom: 0.7em;
     }
 
     #emptyfm {
-      margin-left: 540px;
-      height: 30px !important;
+      position: fixed;
+      width: 100vw;
+      left: 0;
+      bottom: 0;
+      background: #555;
+      height: 40px !important;
+      overflow: hidden;
+      z-index: 1;
     }
 
     .video-js {
@@ -80,9 +92,14 @@
     }
 
     .vjs-control-bar {
-      position: absolute;
-      top: 0;
+      position: static !important;
+      padding-top: 5px;
       background-color: #555 !important;
+    }
+
+    .vjs-fullscreen-control,
+    .vjs-picture-in-picture-control {
+      display: none !important;
     }
 
     .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
@@ -96,9 +113,7 @@
   </style>
 </head>
 <body>
-  <div class="logo">
-    <a href="/"><img src="emptyfm.svg" /></a>
-  </div>
+  <a class="logo" href="/">emptyfm</a>
 
   <header>
     <div class="form-item">
