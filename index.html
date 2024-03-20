@@ -3,6 +3,8 @@
 <head>
   <meta charset=utf-8 />
   <title>emptyfm - Listen to your favorite FM radio</title>
+  <link rel="shorcut icon" type="image/png"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF4SURBVHgB7Zj/jURQEMfH5f7cLWC3gG1AAwqgAA1QgAYoQAEUQAEUQAEKoAAK4P+7+74ccbJ7e/Eum4nMJ5H48cT7mJk3wTBN84MOwBsdBBHhhohwQ0S4ISLcEBFuiAg3RIQbhxF5p3/gfD6T67rkOA5dLhd1rus6yrKMyrJ8eu/pdFL70zTROI60B0P3C/F6vVKSJIvAlr7vyfd9Gobh7nXP89QGmqZRY/eglVrPJOYxiIxt23ev3263ZX9vNIBWan1F84dEURRU17WaENJsnjzSJwxDJZWm6TIex5ZlLceIyF60RNZvGRJRFNF6Um3bUhAEyzmkEO6BLOpiLQGqqqK9aIms0wKT25LnuRKK43iJHKKAhWELIvWojv6CVo1glcHDsT3Kb6xeKODfVi9IrFNuD8Yr/2uhppBOiA7EIQlBnSKfMY7yg04a4ow0xG+kIW6QhgikIW6QhrjiMA1Rvtm5ISLcEBFuiAg3RIQbIsINEeHGYUQ+AbWJ/va1HA5qAAAAAElFTkSuQmCC">
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <style>
     body {
@@ -70,6 +72,26 @@
 
     #emptyfm {
       margin-left: 540px;
+      height: 30px !important;
+    }
+
+    .video-js {
+      background: transparent;
+    }
+
+    .vjs-control-bar {
+      position: absolute;
+      top: 0;
+      background-color: #555 !important;
+    }
+
+    .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+      opacity: 1 !important;
+    }
+
+    .vjs-big-play-button,
+    .vjs-loading-spinner {
+      display: none! important;
     }
   </style>
 </head>
@@ -102,14 +124,9 @@
   
   <video
     id="emptyfm"
-    class="video-js vjs-default-skin"
-    width="300px"
-    height="300px"
+    class="video-js"
     controls
     preload="auto"
-    poster="https://img.freepik.com/free-photo/radio-nature-concept_23-2150246091.jpg?w=740&t=st=1710837307~exp=1710837907~hmac=406857451731b48b11d0cb06346e6346e3891e5392c09cb977e77901e6432826"
-    autoplay="true"
-    muted="muted"
     data-setup="{}"
   >
   </video>
