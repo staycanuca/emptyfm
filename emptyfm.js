@@ -27,7 +27,7 @@ async function fetchFMStations() {
   else {
     queryParams = "countrycode=" + countryCode + "&language=" + langCode + "&hidebroken=true&order=clickcount&reverse=true"
   }
-  
+
   const response = await fetch("https://de1.api.radio-browser.info/json/stations/search?" + queryParams);
   const stations = await response.json();
 
@@ -64,9 +64,9 @@ function fetchMediaType(url) {
       ext = last.split(".").pop();
       switch (ext) {
         case "m3u8":
-	  return "application/x-mpegURL";
+          return "application/x-mpegURL";
         default:
-	  return "audio/mpeg";
+          return "audio/mpeg";
       }
   }
 }
@@ -79,10 +79,10 @@ function listCountries() {
 
       for (var k in json) {
         if (json.hasOwnProperty(k)) {
-	  let option = document.createElement("option");
-	  option.text = json[k];
+          let option = document.createElement("option");
+          option.text = json[k];
           option.value = k;
-          
+
           selectElem.appendChild(option);
         }
       }
@@ -97,10 +97,10 @@ function listLanguages() {
 
       for (var k in json) {
         if (json.hasOwnProperty(k)) {
-	  let option = document.createElement("option");
-	  option.text = json[k];
+          let option = document.createElement("option");
+          option.text = json[k];
           option.value = k;
-          
+
           selectElem.appendChild(option);
         }
       }
