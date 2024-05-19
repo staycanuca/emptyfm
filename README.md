@@ -11,3 +11,6 @@ This is a static website and can be run through any static site server.
 ```python
 python3 -m http.server
 ```
+
+## Acknowledgements
+Purely goes to [https://www.radio-browser.info/](https://www.radio-browser.info/).
