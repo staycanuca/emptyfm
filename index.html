@@ -41,7 +41,7 @@
     .logo {
       display: block;
       font-size: 1.2rem;
-      margin-bottom: 2em;
+      margin-bottom: 0.7em;
     }
 
     a,
@@ -49,6 +49,15 @@
       color: var(--fg);
       text-underline-offset: .25em;
       text-decoration-thickness: 1px
+    }
+
+    .tagline {
+      font-size: 1rem;
+    }
+
+    .nav a {
+      margin-top: 0.5em;
+      font-size: 0.9rem;
     }
 
     h3 {
@@ -87,6 +96,7 @@
 
     #emptyfm {
       position: fixed;
+      display: none;
       width: 100vw;
       left: 0;
       bottom: 0;
@@ -98,7 +108,7 @@
 
     .recents {
       background: #efefef;
-      margin: 0 0 2rem;
+      margin: 2rem 0;
     }
 
     .recents ul {
@@ -148,6 +158,11 @@
 
 <body>
   <a class="logo" href="/">emptyfm</a>
+  <div class="tagline">Listen to your favorite FM radio.</div>
+  <div class="nav">
+    <a href="https://github.com/mysticmode/emptyfm">Source code</a>
+    <a href="https://river.sh">A product by Riverway</a>
+  </div>
 
   <header>
     <div class="recents">

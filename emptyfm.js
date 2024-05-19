@@ -88,7 +88,8 @@ function addToRecents(savedObj, name, url) {
 }
 
 function changeSource(url) {
-    player = videojs('emptyfm');
+	document.getElementById("emptyfm").style.display = "block";
+    player = videojs("emptyfm");
     mediaType = fetchMediaType(url);
     player.src({
         type: mediaType,
