@@ -49,25 +49,25 @@ async function fetchFMStations() {
 }
 
 function populateRecents() {
-	let saved = localStorage.getItem('emptyfm') ?? '{ "recents": [] }';
+    let saved = localStorage.getItem('emptyfm') ?? '{ "recents": [] }';
     let savedObj = JSON.parse(saved);
-	recents = savedObj["recents"];
-	
-	for (recent of recents) {
-		constructRecentEl(recent.name, recent.url);	
-	}
+    recents = savedObj["recents"];
+
+    for (recent of recents) {
+        constructRecentEl(recent.name, recent.url);
+    }
 }
 
 function constructRecentEl(name, url) {
-	let recentsEl = document.getElementById("recentList");
+    let recentsEl = document.getElementById("recentList");
     let litag = document.createElement("li");
     let atag = document.createElement("a");
     atag.href = url;
     atag.innerText = name;
-	atag.onclick = (e) => {
-    	e.preventDefault();
-		changeSource(atag.href);
-	};
+    atag.onclick = (e) => {
+        e.preventDefault();
+        changeSource(atag.href);
+    };
 
     litag.appendChild(atag);
     recentsEl.appendChild(litag);
@@ -84,32 +84,41 @@ function addToRecents(savedObj, name, url) {
     let recentsStr = JSON.stringify({ recents: recents });
     localStorage.setItem('emptyfm', recentsStr);
 
-	constructRecentEl(name, url);
+    constructRecentEl(name, url);
 }
 
 function changeSource(url) {
-	document.getElementById("emptyfm").style.display = "block";
+    document.getElementById("emptyfm").style.display = "block";
     player = videojs("emptyfm");
-    mediaType = fetchMediaType(url);
+    let [mediaURL, mediaType] = fetchMediaType(url);
     player.src({
         type: mediaType,
-        src: url
+        src: mediaURL
     });
-    player.play();
+    player.play().catch(error => {
+        player.stop()
+        [mediaURL, mediaType] = fetchMediaType(mediaURL, "application/x-mpegURL")
+        player.src({
+            type: mediaType,
+            src: mediaURL
+        })
+        player.play()
+    });
 }
 
-function fetchMediaType(url) {
-    last = url.split("/").pop();
-    switch (last) {
-        case "stream":
-            return "audio/mpeg";
+function fetchMediaType(url, defaultType = "audio/mpeg") {
+    const radioBox = new URL(url)
+    let lastPath = radioBox.pathname.split("/").pop();
+    let mType = lastPath.split('.').pop();
+
+    switch (mType) {
+        case "m3u8":
+            return [url, "application/x-mpegURL"];
         default:
-            ext = last.split(".").pop();
-            switch (ext) {
-                case "m3u8":
-                    return "application/x-mpegURL";
-                default:
-                    return "audio/mpeg";
+            if (defaultType != "audio/mpeg") {
+                return [url, "application/x-mpegURL"];
+            } else {
+                return [url, defaultType];
             }
     }
 }
@@ -128,7 +137,7 @@ function listCountries() {
 
                     selectElem.appendChild(option);
                 }
-			}
+            }
         })
 }
 
@@ -153,4 +162,3 @@ function listLanguages() {
 populateRecents();
 listCountries();
 listLanguages();
-
