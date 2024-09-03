@@ -115,11 +115,7 @@ function fetchMediaType(url, defaultType = "audio/mpeg") {
         case "m3u8":
             return [url, "application/x-mpegURL"];
         default:
-            if (defaultType != "audio/mpeg") {
-                return [url, "application/x-mpegURL"];
-            } else {
-                return [url, defaultType];
-            }
+            return [url, defaultType];
     }
 }
 
