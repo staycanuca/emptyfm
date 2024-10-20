@@ -37,8 +37,6 @@
     a,
     a:visited {
       color: var(--fg);
-      text-underline-offset: .25em;
-      text-decoration-thickness: 1px
     }
 
     .tagline {
@@ -113,7 +111,7 @@
       margin: 1em 0;
     }
 
-    .recents h3 {
+    .recents div {
       background: #666;
       color: white;
       margin: 0;
@@ -149,14 +147,15 @@
 
 <body>
   <a class="logo" href="/">EmptyFM</a>
-  <div class="tagline">Listen to your favorite FM radio.</div>
+  <div class="tagline">Listen to your favorite FM Radio station from your browser.</div>
   <div class="nav">
-    A product by <a href="https://river.sh">Riverprograms</a>
+    <p>A project by <a href="https://nirm.al" target="_blank">Nirmal Kumar R</a></p>
+    <p>Acknowledgements: Purely goes to <a href="https://www.radio-browser.info" target="_blank">RadioBrowser</a></p>
   </div>
 
   <header>
     <div class="recents">
-      <h3>Recents</h3>
+      <div>Recents</div>
       <ul id="recentList"></ul>
     </div>
 
