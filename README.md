@@ -1,7 +1,7 @@
 # emptyfm
 An in-browser app to listen to various FM Radio stations around the world - _No data goes to the server_.
 
-Website - [https://emptyfm.netlify.app](https://emptyfm.netlify.app).
+Website - [https://emptyfm.online](https://emptyfm.online).
 
 ## Deployment
 
