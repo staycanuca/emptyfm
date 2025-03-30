@@ -21,7 +21,7 @@ async function fetchFMStations() {
         queryParams = "countrycode=" + countryCode + "&language=" + langCode + "&hidebroken=true&order=clickcount&reverse=true"
     }
 
-    const response = await fetch("https://de1.api.radio-browser.info/json/stations/search?" + queryParams);
+    const response = await fetch("https://fi1.api.radio-browser.info/json/stations/search?" + queryParams);
     const stations = await response.json();
 
     let fmList = document.getElementById("fmlist");
