@@ -1,200 +1,777 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EmptyFM - Listen to your favorite FM Radio station from your browser</title>
-  <link rel="shorcut icon" type="image/png"
-    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF4SURBVHgB7Zj/jURQEMfH5f7cLWC3gG1AAwqgAA1QgAYoQAEUQAEUQAEKoAAK4P+7+74ccbJ7e/Eum4nMJ5H48cT7mJk3wTBN84MOwBsdBBHhhohwQ0S4ISLcEBFuiAg3RIQbhxF5p3/gfD6T67rkOA5dLhd1rus6yrKMyrJ8eu/pdFL70zTROI60B0P3C/F6vVKSJIvAlr7vyfd9Gobh7nXP89QGmqZRY/eglVrPJOYxiIxt23ev3263ZX9vNIBWan1F84dEURRU17WaENJsnjzSJwxDJZWm6TIex5ZlLceIyF60RNZvGRJRFNF6Um3bUhAEyzmkEO6BLOpiLQGqqqK9aIms0wKT25LnuRKK43iJHKKAhWELIvWojv6CVo1glcHDsT3Kb6xeKODfVi9IrFNuD8Yr/2uhppBOiA7EIQlBnSKfMY7yg04a4ow0xG+kIW6QhgikIW6QhrjiMA1Rvtm5ISLcEBFuiAg3RIQbIsINEeHGYUQ+AbWJ/va1HA5qAAAAAElFTkSuQmCC">
+  <title>RadioFM - Modern Radio Streaming</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    
     :root {
-      --bg: #fff;
-      --fg: #333;
-      --alt: #b7b7b7;
+      --primary: #3b82f6;
+      --primary-dark: #2563eb;
+      --dark: #1e293b;
+      --light: #f8fafc;
     }
-
+    
     body {
-      font-size: 14px;
-      text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      padding: 0 2em;
-      margin: 2em auto;
-      background-color: var(--bg);
-      color: var(--fg);
-      font-family: verdana, arial, sans-serif, helvetica;
-      max-width: 590px;
+      font-family: 'Inter', sans-serif;
+      background-color: #f1f5f9;
     }
-
-    .logo {
-      display: block;
-      font-size: 1rem;
-      margin-bottom: 0.7em;
-    }
-
-    a,
-    a:visited {
-      color: var(--fg);
-    }
-
-    .tagline {
-      font-size: 1rem;
-      margin-bottom: 1em;
-    }
-
-    .description {
-      font-size: 14px;
-      font-style: italic;
-    }
-
-    .nav a {
-      margin-top: 0.5em;
-      font-size: 0.9rem;
-    }
-
-    h3 {
-      font-size: 1rem;
-    }
-
-    select,
-    button {
-      width: 100%;
-      height: 32px;
-      font-size: 1rem;
-      box-sizing: border-box;
-      margin-bottom: 1em;
-    }
-
-    button {
-      font-family: verdana, arial, sans-serif, helvetica;
-      font-size: 1.2rem;
-      padding: 0 1em;
-      background: #15C;
-      border: 1px solid var(--fg);
-      color: white;
-      cursor: pointer;
-      margin-top: 1em;
-    }
-
-    #fmlist {
-      display: flex;
-      flex-direction: column;
-      margin: 1em 0 4em;
-    }
-
-    #fmlist a {
-      margin-bottom: 0.7em;
-    }
-
-    #emptyfm {
-      position: fixed;
-      display: none;
-      width: 100vw;
-      left: 0;
-      bottom: 0;
-      background: #555;
-      height: 40px !important;
-      overflow: hidden;
-      z-index: 1;
-    }
-
-    .recents {
-      background: #efefef;
-      margin: 2rem 0;
-    }
-
-    .recents ul {
-      max-height: 14em;
-      overflow-x: hidden;
-      overflow-y: auto;
-      margin: 0;
-    }
-
-    .recents li {
-      margin: 1em 0;
-    }
-
-    .recents div {
-      background: #666;
-      color: white;
-      margin: 0;
-      padding: 0 0.7em;
-      font-size: 1rem;
-    }
-
+    
     .video-js {
       background: transparent;
     }
-
+    
     .vjs-control-bar {
       position: static !important;
       padding-top: 5px;
-      background-color: #555 !important;
+      background-color: var(--dark) !important;
     }
-
+    
     .vjs-fullscreen-control,
     .vjs-picture-in-picture-control {
       display: none !important;
     }
-
+    
     .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
       opacity: 1 !important;
     }
-
+    
     .vjs-big-play-button,
     .vjs-loading-spinner {
-      display: none ! important;
+      display: none !important;
+    }
+    
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: #e2e8f0;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #94a3b8;
+      border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: #64748b;
+    }
+    
+    .station-item {
+      transition: all 0.2s ease;
+    }
+    
+    .station-item:hover {
+      transform: translateX(4px);
+    }
+    
+    .gradient-text {
+      background: linear-gradient(90deg, #3b82f6, #6366f1);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translate(-50%, 10px); }
+      to { opacity: 1; transform: translate(-50%, 0); }
+    }
+    
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    
+    .animate-fade-in-up {
+      animation: fadeInUp 0.3s ease-out forwards;
+    }
+    
+    .animate-fade-out {
+      animation: fadeOut 0.3s ease-out forwards;
+    }
+    
+    /* Audio player styles */
+    .audio-player {
+      width: 100%;
+      background-color: #1e293b;
+      color: white;
+      padding: 12px;
+      border-radius: 0;
+    }
+    
+    .audio-player-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    
+    .audio-player-info {
+      flex-grow: 1;
+      margin: 0 12px;
+      overflow: hidden;
+    }
+    
+    .station-name {
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .station-url {
+      font-size: 12px;
+      color: #94a3b8;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .play-pause-btn {
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .play-pause-btn:hover {
+      background-color: #2563eb;
+    }
+    
+    .volume-control {
+      display: flex;
+      align-items: center;
+      width: 100px;
+    }
+    
+    .progress-container {
+      width: 100%;
+      height: 4px;
+      background-color: #334155;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      background-color: #3b82f6;
+      border-radius: 2px;
+      width: 0%;
     }
   </style>
 </head>
+<body class="min-h-screen">
+  <div class="container mx-auto px-4 py-8 max-w-3xl">
+    <header class="mb-8">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h1 class="text-3xl font-bold gradient-text">RadioFM</h1>
+          <p class="text-slate-600">Listen to your favorite FM Radio stations</p>
+        </div>
+        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+          <i class="fas fa-radio text-blue-500 text-xl"></i>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+        <p class="text-slate-600 italic mb-4">An in-browser app to listen to various FM Radio stations around the world.</p>
+        
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="flex items-center text-slate-700">
+            <i class="fas fa-user mr-1"></i> RadioFM App
+          </span>
+          <span class="text-slate-300">•</span>
+          <a href="https://www.radio-browser.info" target="_blank" class="flex items-center text-slate-700 hover:text-blue-500">
+            <i class="fas fa-external-link-alt mr-1"></i> RadioBrowser
+          </a>
+        </div>
+      </div>
+    </header>
 
-<body>
-  <a class="logo" href="/">EmptyFM</a>
-  <div class="tagline">Listen to your favorite FM Radio station from your browser.</div>
-  <p class="description">An in-browser app to listen to various FM Radio stations around the world - No data goes to the
-    server.</p>
-  <div class="nav">
-    <p>A project by <a href="https://nirm.al" target="_blank">Nirmal Kumar R</a>. Find the <a
-        href="https://github.com/mysticmode/emptyfm" target="_blank">source code</a>.</p>
-    <p>Acknowledgements: Purely goes to <a href="https://www.radio-browser.info" target="_blank">RadioBrowser</a>.</p>
+    <main>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden mb-6">
+        <div class="bg-slate-800 text-white px-4 py-3 flex items-center">
+          <i class="fas fa-clock mr-2"></i>
+          <h3 class="font-medium">Recently Played</h3>
+        </div>
+        <div class="max-h-48 overflow-y-auto">
+          <ul id="recentList" class="divide-y divide-slate-100"></ul>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+        <h2 class="text-xl font-semibold text-slate-800 mb-4">Find Radio Stations</h2>
+        
+        <div class="space-y-4">
+          <div>
+            <label for="countryCode" class="block text-sm font-medium text-slate-700 mb-1">Country</label>
+            <select name="country_code" id="countryCode" class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+              <option value="" selected>Select a country</option>
+            </select>
+          </div>
+          
+          <div>
+            <label for="languages" class="block text-sm font-medium text-slate-700 mb-1">Language</label>
+            <select name="languages" id="languages" class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+              <option value="" selected>Select a language</option>
+            </select>
+          </div>
+          
+          <div class="flex flex-wrap gap-2">
+            <button id="searchButton" class="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition duration-200 flex items-center justify-center">
+              <i class="fas fa-search mr-2"></i> Find Stations
+            </button>
+            <button id="romaniaButton" class="flex-1 bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-4 rounded-lg transition duration-200 flex items-center justify-center">
+              <i class="fas fa-flag mr-2"></i> Romania
+            </button>
+            <button id="romanianButton" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-2 px-4 rounded-lg transition duration-200 flex items-center justify-center">
+              <i class="fas fa-language mr-2"></i> Romanian
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="fmlist" class="space-y-3"></div>
+    </main>
   </div>
 
-  <header>
-    <div class="recents">
-      <div>Recents</div>
-      <ul id="recentList"></ul>
+  <div id="audioPlayer" class="fixed bottom-0 left-0 right-0 bg-slate-800 shadow-lg" style="display: none;">
+    <div class="audio-player">
+      <div class="audio-player-controls">
+        <button id="playPauseBtn" class="play-pause-btn">
+          <i class="fas fa-play" id="playPauseIcon"></i>
+        </button>
+        <div class="audio-player-info">
+          <div id="stationName" class="station-name">No station selected</div>
+          <div id="stationUrl" class="station-url"></div>
+        </div>
+        <div class="volume-control">
+          <i class="fas fa-volume-down text-slate-400 mr-2"></i>
+          <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.7" class="w-full">
+        </div>
+      </div>
+      <div class="progress-container">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
     </div>
-
-    <div class="form-item">
-      <label for="countryCode">Choose a country:</label>
-      <select name="country_code" id="countryCode">
-        <option value="" selected>None</option>
-      </select>
-    </div>
-
-    <div class="form-item">
-      <label for="languages">Choose a language:</label>
-      <select name="languages" id="languages">
-        <option value="" selected>None</option>
-      </select>
-    </div>
-
-    <div class="form-item">
-      <button onclick="fetchFMStations()">Find stations</button>
-    </div>
-  </header>
-
-  <div class="fmstations" id="fmlist"></div>
-
-  <video id="emptyfm" class="video-js" controls preload="auto" data-setup="{}">
-  </video>
+  </div>
 
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-  <script src="https://unpkg.com/browse/@videojs/http-streaming@2.6.0/dist/videojs-http-streaming.min.js"></script>
+  <script>
+    // Embedded country and language data
+    const countryCodes = {
+      "AF": "Afghanistan", "AX": "Åland Islands", "AL": "Albania", "DZ": "Algeria", "AS": "American Samoa", 
+      "AD": "Andorra", "AO": "Angola", "AI": "Anguilla", "AQ": "Antarctica", "AG": "Antigua and Barbuda", 
+      "AR": "Argentina", "AM": "Armenia", "AW": "Aruba", "AU": "Australia", "AT": "Austria", "AZ": "Azerbaijan", 
+      "BS": "Bahamas", "BH": "Bahrain", "BD": "Bangladesh", "BB": "Barbados", "BY": "Belarus", "BE": "Belgium", 
+      "BZ": "Belize", "BJ": "Benin", "BM": "Bermuda", "BT": "Bhutan", "BO": "Bolivia", "BQ": "Bonaire", 
+      "BA": "Bosnia and Herzegovina", "BW": "Botswana", "BV": "Bouvet Island", "BR": "Brazil", 
+      "IO": "British Indian Ocean Territory", "BN": "Brunei Darussalam", "BG": "Bulgaria", "BF": "Burkina Faso", 
+      "BI": "Burundi", "CV": "Cabo Verde", "KH": "Cambodia", "CM": "Cameroon", "CA": "Canada", 
+      "KY": "Cayman Islands", "CF": "Central African Republic", "TD": "Chad", "CL": "Chile", "CN": "China", 
+      "CX": "Christmas Island", "CC": "Cocos (Keeling) Islands", "CO": "Colombia", "KM": "Comoros", 
+      "CG": "Congo", "CD": "Congo (the Democratic Republic of the)", "CK": "Cook Islands", "CR": "Costa Rica", 
+      "CI": "Côte d'Ivoire", "HR": "Croatia", "CU": "Cuba", "CW": "Curaçao", "CY": "Cyprus", "CZ": "Czechia", 
+      "DK": "Denmark", "DJ": "Djibouti", "DM": "Dominica", "DO": "Dominican Republic", "EC": "Ecuador", 
+      "EG": "Egypt", "SV": "El Salvador", "GQ": "Equatorial Guinea", "ER": "Eritrea", "EE": "Estonia", 
+      "SZ": "Eswatini", "ET": "Ethiopia", "FK": "Falkland Islands [Malvinas]", "FO": "Faroe Islands", 
+      "FJ": "Fiji", "FI": "Finland", "FR": "France", "GF": "French Guiana", "PF": "French Polynesia", 
+      "TF": "French Southern Territories", "GA": "Gabon", "GM": "Gambia", "GE": "Georgia", "DE": "Germany", 
+      "GH": "Ghana", "GI": "Gibraltar", "GR": "Greece", "GL": "Greenland", "GD": "Grenada", "GP": "Guadeloupe", 
+      "GU": "Guam", "GT": "Guatemala", "GG": "Guernsey", "GN": "Guinea", "GW": "Guinea-Bissau", "GY": "Guyana", 
+      "HT": "Haiti", "HM": "Heard Island and McDonald Islands", "VA": "Holy See", "HN": "Honduras", 
+      "HK": "Hong Kong", "HU": "Hungary", "IS": "Iceland", "IN": "India", "ID": "Indonesia", "IR": "Iran", 
+      "IQ": "Iraq", "IE": "Ireland", "IM": "Isle of Man", "IL": "Israel", "IT": "Italy", "JM": "Jamaica", 
+      "JP": "Japan", "JE": "Jersey", "JO": "Jordan", "KZ": "Kazakhstan", "KE": "Kenya", "KI": "Kiribati", 
+      "KP": "Korea (the Democratic People's Republic of)", "KR": "Korea (the Republic of)", "KW": "Kuwait", 
+      "KG": "Kyrgyzstan", "LA": "Lao People's Democratic Republic", "LV": "Latvia", "LB": "Lebanon", 
+      "LS": "Lesotho", "LR": "Liberia", "LY": "Libya", "LI": "Liechtenstein", "LT": "Lithuania", 
+      "LU": "Luxembourg", "MO": "Macao", "MG": "Madagascar", "MW": "Malawi", "MY": "Malaysia", 
+      "MV": "Maldives", "ML": "Mali", "MT": "Malta", "MH": "Marshall Islands", "MQ": "Martinique", 
+      "MR": "Mauritania", "MU": "Mauritius", "YT": "Mayotte", "MX": "Mexico", "FM": "Micronesia", 
+      "MD": "Moldova", "MC": "Monaco", "MN": "Mongolia", "ME": "Montenegro", "MS": "Montserrat", 
+      "MA": "Morocco", "MZ": "Mozambique", "MM": "Myanmar", "NA": "Namibia", "NR": "Nauru", "NP": "Nepal", 
+      "NL": "Netherlands", "NC": "New Caledonia", "NZ": "New Zealand", "NI": "Nicaragua", "NE": "Niger", 
+      "NG": "Nigeria", "NU": "Niue", "NF": "Norfolk Island", "MK": "North Macedonia", "MP": "Northern Mariana Islands", 
+      "NO": "Norway", "OM": "Oman", "PK": "Pakistan", "PW": "Palau", "PS": "Palestine", "PA": "Panama", 
+      "PG": "Papua New Guinea", "PY": "Paraguay", "PE": "Peru", "PH": "Philippines", "PN": "Pitcairn", 
+      "PL": "Polland", "PT": "Portugal", "PR": "Puerto Rico", "QA": "Qatar", "RE": "Réunion", "RO": "Romania", 
+      "RU": "Russian Federation", "RW": "Rwanda", "BL": "Saint Barthélemy", "SH": "Saint Helena", 
+      "KN": "Saint Kitts and Nevis", "LC": "Saint Lucia", "MF": "Saint Martin (French part)", 
+      "PM": "Saint Pierre and Miquelon", "VC": "Saint Vincent and the Grenadines", "WS": "Samoa", 
+      "SM": "San Marino", "ST": "Sao Tome and Principe", "SA": "Saudi Arabia", "SN": "Senegal", 
+      "RS": "Serbia", "SC": "Seychelles", "SL": "Sierra Leone", "SG": "Singapore", "SX": "Sint Maarten", 
+      "SK": "Slovakia", "SI": "Slovenia", "SB": "Solomon Islands", "SO": "Somalia", "ZA": "South Africa", 
+      "GS": "South Georgia and the South Sandwich Islands", "SS": "South Sudan", "ES": "Spain", 
+      "LK": "Sri Lanka", "SD": "Sudan", "SR": "Suriname", "SJ": "Svalbard and Jan Mayen", "SE": "Sweden", 
+      "CH": "Switzerland", "SY": "Syrian Arab Republic", "TW": "Taiwan", "TJ": "Tajikistan", 
+      "TZ": "Tanzania", "TH": "Thailand", "TL": "Timor-Leste", "TG": "Togo", "TK": "Tokelau", 
+      "TO": "Tonga", "TT": "Trinidad and Tobago", "TN": "Tunisia", "TR": "Turkey", "TM": "Turkmenistan", 
+      "TC": "Turks and Caicos Islands", "TV": "Tuvalu", "UG": "Uganda", "UA": "Ukraine", 
+      "AE": "United Arab Emirates", "GB": "United Kingdom", "US": "United States", 
+      "UM": "United States Minor Outlying Islands", "UY": "Uruguay", "UZ": "Uzbekistan", "VU": "Vanuatu", 
+      "VE": "Venezuela", "VN": "Viet Nam", "VG": "Virgin Islands (British)", "VI": "Virgin Islands (U.S.)", 
+      "WF": "Wallis and Futuna", "EH": "Western Sahara", "YE": "Yemen", "ZM": "Zambia", "ZW": "Zimbabwe"
+    };
 
-  <script src="emptyfm.js"></script>
+    const languageCodes = {
+      "ab": "Abkhazian", "aa": "Afar", "af": "Afrikaans", "ak": "Akan", "sq": "Albanian", "am": "Amharic", 
+      "ar": "Arabic", "an": "Aragonese", "hy": "Armenian", "as": "Assamese", "av": "Avaric", "ae": "Avestan", 
+      "ay": "Aymara", "az": "Azerbaijani", "bm": "Bambara", "ba": "Bashkir", "eu": "Basque", "be": "Belarusian", 
+      "bn": "Bengali", "bh": "Bihari languages", "bi": "Bislama", "bs": "Bosnian", "br": "Breton", 
+      "bg": "Bulgarian", "my": "Burmese", "ca": "Catalan", "ch": "Chamorro", "ce": "Chechen", 
+      "ny": "Chichewa", "zh": "Chinese", "cv": "Chuvash", "kw": "Cornish", "co": "Corsican", 
+      "cr": "Cree", "hr": "Croatian", "cs": "Czech", "da": "Danish", "dv": "Divehi", "nl": "Dutch", 
+      "dz": "Dzongkha", "en": "English", "eo": "Esperanto", "et": "Estonian", "ee": "Ewe", "fo": "Faroese", 
+      "fj": "Fijian", "fi": "Finnish", "fr": "French", "ff": "Fulah", "gl": "Galician", "ka": "Georgian", 
+      "de": "German", "el": "Greek", "gn": "Guarani", "gu": "Gujarati", "ht": "Haitian", "ha": "Hausa", 
+      "he": "Hebrew", "hz": "Herero", "hi": "Hindi", "ho": "Hiri Motu", "hu": "Hungarian", "ia": "Interlingua", 
+      "id": "Indonesian", "ie": "Interlingue", "ga": "Irish", "ig": "Igbo", "ik": "Inupiaq", "io": "Ido", 
+      "is": "Icelandic", "it": "Italian", "iu": "Inuktitut", "ja": "Japanese", "jv": "Javanese", 
+      "kl": "Kalaallisut", "kn": "Kannada", "kr": "Kanuri", "ks": "Kashmiri", "kk": "Kazakh", 
+      "km": "Central Khmer", "ki": "Kikuyu", "rw": "Kinyarwanda", "ky": "Kirghiz", "kv": "Komi", 
+      "kg": "Kongo", "ko": "Korean", "ku": "Kurdish", "kj": "Kuanyama", "la": "Latin", "lb": "Luxembourgish", 
+      "lg": "Ganda", "li": "Limburgan", "ln": "Lingala", "lo": "Lao", "lt": "Lithuanian", "lu": "Luba-Katanga", 
+      "lv": "Latvian", "gv": "Manx", "mk": "Macedonian", "mg": "Malagasy", "ms": "Malay", "ml": "Malayalam", 
+      "mt": "Maltese", "mi": "Maori", "mr": "Marathi", "mh": "Marshallese", "mn": "Mongolian", "na": "Nauru", 
+      "nv": "Navajo", "nd": "North Ndebele", "ne": "Nepali", "ng": "Ndonga", "nb": "Norwegian Bokmål", 
+      "nn": "Norwegian Nynorsk", "no": "Norwegian", "ii": "Sichuan Yi", "nr": "South Ndebele", 
+      "oc": "Occitan", "oj": "Ojibwa", "cu": "Church Slavic", "om": "Oromo", "or": "Oriya", "os": "Ossetian", 
+      "pa": "Punjabi", "pi": "Pali", "fa": "Persian", "pl": "Polish", "ps": "Pashto", "pt": "Portuguese", 
+      "qu": "Quechua", "rm": "Romansh", "rn": "Rundi", "ro": "Romanian", "ru": "Russian", "sa": "Sanskrit", 
+      "sc": "Sardinian", "sd": "Sindhi", "se": "Northern Sami", "sm": "Samoan", "sg": "Sango", 
+      "sr": "Serbian", "gd": "Gaelic", "sn": "Shona", "si": "Sinhala", "sk": "Slovak", "sl": "Slovenian", 
+      "so": "Somali", "st": "Southern Sotho", "es": "Spanish", "su": "Sundanese", "sw": "Swahili", 
+      "ss": "Swati", "sv": "Swedish", "ta": "Tamil", "te": "Telugu", "tg": "Tajik", "th": "Thai", 
+      "ti": "Tigrinya", "bo": "Tibetan", "tk": "Turkmen", "tl": "Tagalog", "tn": "Tswana", "to": "Tonga", 
+      "tr": "Turkish", "ts": "Tsonga", "tt": "Tatar", "tw": "Twi", "ty": "Tahitian", "ug": "Uighur", 
+      "uk": "Ukrainian", "ur": "Urdu", "uz": "Uzbek", "ve": "Venda", "vi": "Vietnamese", "vo": "Volapük", 
+      "wa": "Walloon", "cy": "Welsh", "wo": "Woloff", "fy": "Western Frisian", "xh": "Xhosa", "yi": "Yiddish", 
+      "yo": "Yoruba", "za": "Zhuang", "zu": "Zulu"
+    };
+
+    let audioPlayer;
+    let recents = [];
+    let currentStation = null;
+
+    // Storage with fallback for partitioned contexts
+    const storage = {
+      getItem: (key) => {
+        try {
+          return localStorage.getItem(key);
+        } catch (e) {
+          return null;
+        }
+      },
+      setItem: (key, value) => {
+        try {
+          localStorage.setItem(key, value);
+        } catch (e) {
+          console.warn("Storage access blocked:", e);
+        }
+      }
+    };
+
+    async function fetchFMStations() {
+      let countrySelect = document.getElementById("countryCode");
+      let countryCode = countrySelect.value;
+
+      let languagesSelect = document.getElementById("languages");
+      let langCode = languagesSelect.value;
+
+      let queryParams = [];
+
+      if (!countryCode && !langCode) {
+        showToast("Please select a country or language", "error");
+        return;
+      }
+
+      if (countryCode) {
+        queryParams.push(`countrycode=${encodeURIComponent(countryCode)}`);
+      }
+
+      if (langCode) {
+        queryParams.push(`language=${encodeURIComponent(langCode)}`);
+      }
+
+      queryParams.push('hidebroken=true');
+      queryParams.push('order=clickcount');
+      queryParams.push('reverse=true');
+
+      const queryString = queryParams.join('&');
+      
+      showToast("Searching for stations...", "info");
+      
+      try {
+        // Using a different approach to avoid CORS issues
+        // First try direct API call (may work in some environments)
+        let apiUrl = `https://fi1.api.radio-browser.info/json/stations/search?${queryString}`;
+        
+        // Try with a different CORS proxy if direct call fails
+        const proxyUrls = [
+          'https://api.allorigins.win/get?url=',
+          'https://corsproxy.io/?',
+          'https://thingproxy.freeboard.io/fetch/'
+        ];
+        
+        let response;
+        let stations;
+        
+        // Try direct first
+        try {
+          response = await fetch(apiUrl);
+          if (!response.ok) throw new Error('Direct fetch failed');
+          stations = await response.json();
+        } catch (directError) {
+          console.log("Direct fetch failed, trying proxies...");
+          
+          // Try each proxy in sequence
+          for (const proxyUrl of proxyUrls) {
+            try {
+              const proxyApiUrl = proxyUrl + encodeURIComponent(apiUrl);
+              response = await fetch(proxyApiUrl);
+              
+              if (!response.ok) continue;
+              
+              const data = await response.json();
+              
+              // Some proxies wrap the response differently
+              if (proxyUrl.includes('allorigins')) {
+                stations = JSON.parse(data.contents);
+              } else {
+                stations = data;
+              }
+              
+              // If we got valid data, break the loop
+              if (stations) break;
+              
+            } catch (proxyError) {
+              console.log(`Proxy ${proxyUrl} failed, trying next...`);
+              continue;
+            }
+          }
+          
+          if (!stations) {
+            throw new Error('All proxy attempts failed');
+          }
+        }
+
+        let fmList = document.getElementById("fmlist");
+        fmList.innerHTML = "";
+        
+        if (stations.length === 0) {
+          fmList.innerHTML = `
+            <div class="bg-white rounded-xl shadow-md p-6 text-center">
+              <i class="fas fa-radio text-4xl text-slate-300 mb-3"></i>
+              <h3 class="text-lg font-medium text-slate-700">No stations found</h3>
+              <p class="text-slate-500">Try different search criteria</p>
+            </div>
+          `;
+          return;
+        }
+
+        stations.forEach(station => {
+          let stationDiv = document.createElement("div");
+          stationDiv.className = "station-item bg-white rounded-lg shadow-sm p-4 hover:shadow-md cursor-pointer";
+          stationDiv.innerHTML = `
+            <div class="flex items-center">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                <i class="fas fa-broadcast-tower text-blue-500"></i>
+              </div>
+              <div>
+                <h3 class="font-medium text-slate-800">${station.name || 'Unknown Station'}</h3>
+                <p class="text-sm text-slate-500">${station.country || 'Unknown'} • ${station.language || 'Unknown'}</p>
+              </div>
+            </div>
+          `;
+          
+          stationDiv.onclick = () => {
+            addToRecents(station.name, station.url);
+            playStation(station.url, station.name);
+            showToast(`Now playing: ${station.name}`, "success");
+          };
+
+          fmList.appendChild(stationDiv);
+        });
+      } catch (error) {
+        showToast("Failed to fetch stations. Please try again.", "error");
+        console.error("Fetch error:", error);
+        
+        // Fallback: Show some sample stations if API fails
+        showSampleStations();
+      }
+    }
+
+    // Function to fetch Romanian stations (by country)
+    async function fetchRomanianStations() {
+      document.getElementById("countryCode").value = "RO";
+      document.getElementById("languages").value = "";
+      await fetchFMStations();
+    }
+
+    // Function to fetch Romanian language stations
+    async function fetchRomanianLanguageStations() {
+      document.getElementById("countryCode").value = "";
+      document.getElementById("languages").value = "ro";
+      await fetchFMStations();
+    }
+
+    function showSampleStations() {
+      const sampleStations = [
+        {
+          name: "BBC Radio 1",
+          url: "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p",
+          country: "United Kingdom",
+          language: "English"
+        },
+        {
+          name: "Radio France Internationale",
+          url: "http://live02.rfi.fr/rfienfrancais-64.mp3",
+          country: "France",
+          language: "French"
+        },
+        {
+          name: "Deutschlandfunk",
+          url: "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3",
+          country: "Germany",
+          language: "German"
+        },
+        {
+          name: "Radio Nacional Argentina",
+          url: "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad1",
+          country: "Argentina",
+          language: "Spanish"
+        }
+      ];
+
+      let fmList = document.getElementById("fmlist");
+      fmList.innerHTML = `
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <i class="fas fa-exclamation-triangle text-yellow-400"></i>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-yellow-700">
+                Couldn't connect to the radio database. Showing sample stations instead.
+              </p>
+            </div>
+          </div>
+        </div>
+      `;
+
+      sampleStations.forEach(station => {
+        let stationDiv = document.createElement("div");
+        stationDiv.className = "station-item bg-white rounded-lg shadow-sm p-4 hover:shadow-md cursor-pointer";
+        stationDiv.innerHTML = `
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+              <i class="fas fa-broadcast-tower text-blue-500"></i>
+            </div>
+            <div>
+              <h3 class="font-medium text-slate-800">${station.name}</h3>
+              <p class="text-sm text-slate-500">${station.country} • ${station.language}</p>
+            </div>
+          </div>
+        `;
+        
+        stationDiv.onclick = () => {
+          addToRecents(station.name, station.url);
+          playStation(station.url, station.name);
+          showToast(`Now playing: ${station.name}`, "success");
+        };
+
+        fmList.appendChild(stationDiv);
+      });
+    }
+
+    function populateRecents() {
+      const saved = storage.getItem('radiofm_recents');
+      recents = saved ? JSON.parse(saved) : [];
+      
+      const recentList = document.getElementById("recentList");
+      recentList.innerHTML = "";
+      
+      recents.forEach(recent => {
+        const li = document.createElement("li");
+        li.className = "px-4 py-3 hover:bg-slate-50 cursor-pointer";
+        li.innerHTML = `
+          <div class="flex items-center">
+            <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center mr-3">
+              <i class="fas fa-history text-slate-400 text-sm"></i>
+            </div>
+            <div>
+              <h3 class="text-sm font-medium text-slate-800">${recent.name}</h3>
+              <p class="text-xs text-slate-500 truncate max-w-xs">${recent.url}</p>
+            </div>
+          </div>
+        `;
+        
+        li.onclick = () => {
+          playStation(recent.url, recent.name);
+          showToast(`Now playing: ${recent.name}`, "success");
+        };
+
+        recentList.appendChild(li);
+      });
+    }
+
+    function addToRecents(name, url) {
+      // Remove if already exists
+      recents = recents.filter(item => item.url !== url);
+      
+      // Add to beginning
+      recents.unshift({ name, url });
+      
+      // Keep only last 10 items
+      if (recents.length > 10) {
+        recents = recents.slice(0, 10);
+      }
+      
+      // Save to storage
+      storage.setItem('radiofm_recents', JSON.stringify(recents));
+      
+      // Update UI
+      populateRecents();
+    }
+
+    function playStation(url, stationName = "") {
+      // Initialize audio player if not already done
+      if (!audioPlayer) {
+        audioPlayer = new Audio();
+        audioPlayer.crossOrigin = "anonymous";
+        
+        // Set up event listeners
+        audioPlayer.addEventListener('play', () => {
+          document.getElementById('playPauseIcon').className = 'fas fa-pause';
+        });
+        
+        audioPlayer.addEventListener('pause', () => {
+          document.getElementById('playPauseIcon').className = 'fas fa-play';
+        });
+        
+        audioPlayer.addEventListener('error', (e) => {
+          console.error("Audio error:", e);
+          showToast("Failed to play station. Try another one.", "error");
+        });
+        
+        // Set up play/pause button
+        document.getElementById('playPauseBtn').addEventListener('click', () => {
+          if (audioPlayer.paused) {
+            audioPlayer.play();
+          } else {
+            audioPlayer.pause();
+          }
+        });
+        
+        // Set up volume control
+        document.getElementById('volumeSlider').addEventListener('input', (e) => {
+          audioPlayer.volume = e.target.value;
+        });
+        
+        // Set initial volume
+        audioPlayer.volume = 0.7;
+      }
+      
+      // Update current station info
+      currentStation = { name: stationName, url };
+      document.getElementById('stationName').textContent = stationName || 'Unknown Station';
+      document.getElementById('stationUrl').textContent = url;
+      
+      // Change audio source
+      audioPlayer.src = url;
+      
+      // Show player
+      document.getElementById('audioPlayer').style.display = 'block';
+      
+      // Try to play
+      audioPlayer.play().catch(error => {
+        console.error("Playback error:", error);
+        showToast("Failed to play station. Try another one.", "error");
+      });
+    }
+
+    function listCountries() {
+      const selectElem = document.getElementById("countryCode");
+      
+      // Sort countries alphabetically
+      const sortedCountries = Object.entries(countryCodes)
+        .sort((a, b) => a[1].localeCompare(b[1]));
+      
+      sortedCountries.forEach(([code, name]) => {
+        const option = document.createElement("option");
+        option.text = name;
+        option.value = code;
+        selectElem.appendChild(option);
+      });
+    }
+
+    function listLanguages() {
+      const selectElem = document.getElementById("languages");
+      
+      // Sort languages alphabetically
+      const sortedLanguages = Object.entries(languageCodes)
+        .sort((a, b) => a[1].localeCompare(b[1]));
+      
+      sortedLanguages.forEach(([code, name]) => {
+        const option = document.createElement("option");
+        option.text = name;
+        option.value = code;
+        selectElem.appendChild(option);
+      });
+    }
+
+    function showToast(message, type = "info") {
+      const toast = document.createElement("div");
+      const colors = {
+        info: "bg-blue-500",
+        success: "bg-green-500",
+        error: "bg-red-500",
+        warning: "bg-yellow-500"
+      };
+      
+      toast.className = `fixed bottom-4 left-1/2 transform -translate-x-1/2 text-white px-4 py-2 rounded-lg shadow-lg ${colors[type] || colors.info} animate-fade-in-up`;
+      toast.innerHTML = `
+        <div class="flex items-center">
+          <i class="fas ${type === 'success' ? 'fa-check' : type === 'error' ? 'fa-times' : 'fa-info-circle'} mr-2"></i>
+          <span>${message}</span>
+        </div>
+      `;
+      
+      document.body.appendChild(toast);
+      
+      setTimeout(() => {
+        toast.classList.add("animate-fade-out");
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    }
+
+    // Initialize
+    document.addEventListener("DOMContentLoaded", () => {
+      populateRecents();
+      listCountries();
+      listLanguages();
+      
+      // Add event listeners to buttons
+      document.getElementById("searchButton").addEventListener("click", fetchFMStations);
+      document.getElementById("romaniaButton").addEventListener("click", fetchRomanianStations);
+      document.getElementById("romanianButton").addEventListener("click", fetchRomanianLanguageStations);
+    });
+  </script>
 </body>
-
 </html>
