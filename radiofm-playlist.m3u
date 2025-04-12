@@ -537,3 +537,5 @@ https://hs1.radiolibertymp.ro/listen/lmpchill/stream.mp3?refresh=1700228324588
 https://radio.radiowanda.ro:8192/stream
 #EXTINF:-1,Radio Click
 https://live.radioclick.ro/8008/stream
+#EXTINF:-1,Radio ZU
+https://ivm.antenaplay.ro/liveaudio/radiozu/playlist.m3u8
