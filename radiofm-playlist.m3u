@@ -563,3 +563,5 @@ https://ssl.servereradio.ro/7000/stream
 https://ssl.radios.show/8026/;
 #EXTINF:-1,FavoriteFM
 http://media.xseu.net/FavoriteFM
+#EXTINF:-1,Radio RFI Romania
+https://asculta.radiorfi.ro/live.mp3
