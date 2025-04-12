@@ -235,8 +235,12 @@ https://stream.radioboom.ro/listen/boom_energy/radio.mp3
 https://panel.radiocaleasprecer.com/radio/8040/radio.mp3
 #EXTINF:-1,Rádió GaGa Gold
 https://a2.asurahosting.com:7020/radio.mp3?1741449673
-#EXTINF:-1,Capital FM - Dance
+#EXTINF:-1,Capital FM - Manele
 https://ssl.omegahost.ro:8020/stream
+#EXTINF:-1,Capital FM - Dance
+https://radio.sonicpanel.ro/8020/stream
+#EXTINF:-1,Capital FM - Etno
+https://radio.sonicpanel.ro/7000/stream
 #EXTINF:-1,Rock Now Radio
 https://listen.rocknowradio.ro/
 #EXTINF:-1,Roman FM
