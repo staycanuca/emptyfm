@@ -555,3 +555,5 @@ https://radio.hostrix.biz:8969/stream
 https://ssl.servereradio.ro/8054/stream
 #EXTINF:-1,FM Radio Petrecere
 https://ssl.servereradio.ro/8123/stream
+#EXTINF:-1,Radio Hot Style
+https://live.radiohot.ro/8000/stream
