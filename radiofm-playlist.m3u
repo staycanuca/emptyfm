@@ -551,3 +551,7 @@ https://live4ro.antenaplay.ro/radiozu/radiozu-48000.m3u8
 https://live.radioprob.ro/8888/live
 #EXTINF:-1,Radio Vip
 https://radio.hostrix.biz:8969/stream
+#EXTINF:-1,FM Radio Manele
+https://ssl.servereradio.ro/8054/stream
+#EXTINF:-1,FM Radio Petrecere
+https://ssl.servereradio.ro/8123/stream
