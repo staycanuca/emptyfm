@@ -544,4 +544,4 @@ https://cors.oxusescu.workers.dev/?url=https://stream.noroc.tv/radionoroc_128
 #EXTINF:-1,Radio ZU
 https://live4ro.antenaplay.ro/radiozu/radiozu-48000.m3u8
 #EXTINF:-1,Radio ProB
-https://cors.oxusescu.workers.dev/?url=http://live.radioprob.ro:8888/
+https://live.radioprob.ro/8888/live
