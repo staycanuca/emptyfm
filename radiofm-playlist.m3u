@@ -559,3 +559,7 @@ https://ssl.servereradio.ro/8123/stream
 https://live.radiohot.ro/8000/stream
 #EXTINF:-1,Radio Tequila
 https://ssl.servereradio.ro/7000/stream
+#EXTINF:-1,Radio Iubire
+https://ssl.radios.show/8026/;
+#EXTINF:-1,FavoriteFM
+http://media.xseu.net/FavoriteFM
