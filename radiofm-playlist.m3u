@@ -545,3 +545,5 @@ https://cors.oxusescu.workers.dev/?url=https://stream.noroc.tv/radionoroc_128
 https://live4ro.antenaplay.ro/radiozu/radiozu-48000.m3u8
 #EXTINF:-1,Radio Pro-B
 https://live.radioprob.ro/8888/live
+#EXTINF:-1,Radio Vip
+https://radio.hostrix.biz:8969/stream
