@@ -1,827 +1,827 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Radio Alba24", Radio Alba24
+#EXTINF:-1, Radio Alba24
 http://radio.garden/api/ara/content/listen/GUWaeP3r/channel.mp3
-#EXTINF:-1 tvg-name="Radio Hit FM 88.6", Radio Hit FM 88.6
+#EXTINF:-1, Radio Hit FM 88.6
 http://radio.garden/api/ara/content/listen/oaDM_JUI/channel.mp3
-#EXTINF:-1 tvg-name="Radio Reintregirea", Radio Reintregirea
+#EXTINF:-1, Radio Reintregirea
 http://radio.garden/api/ara/content/listen/MQXZOwk0/channel.mp3
-#EXTINF:-1 tvg-name="Alt FM", Alt FM
+#EXTINF:-1, Alt FM
 http://radio.garden/api/ara/content/listen/Y7QRROor/channel.mp3
-#EXTINF:-1 tvg-name="Hangos Rádió", Hangos Rádió
+#EXTINF:-1, Hangos Rádió
 http://radio.garden/api/ara/content/listen/zjyi7U8z/channel.mp3
-#EXTINF:-1 tvg-name="Joy FM", Joy FM
+#EXTINF:-1, Joy FM
 http://radio.garden/api/ara/content/listen/1XboNLio/channel.mp3
-#EXTINF:-1 tvg-name="Radio Arad FM 102.9", Radio Arad FM 102.9
+#EXTINF:-1, Radio Arad FM 102.9
 http://radio.garden/api/ara/content/listen/2wrylman/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania 106.1 FM", Radio Transilvania 106.1 FM
+#EXTINF:-1, Radio Transilvania 106.1 FM
 http://radio.garden/api/ara/content/listen/J1UcOeix/channel.mp3
-#EXTINF:-1 tvg-name="Social FM 96.9", Social FM 96.9
+#EXTINF:-1, Social FM 96.9
 http://radio.garden/api/ara/content/listen/qPSAmE7x/channel.mp3
-#EXTINF:-1 tvg-name="Radio Ciresarii", Radio Ciresarii
+#EXTINF:-1, Radio Ciresarii
 http://radio.garden/api/ara/content/listen/9wqao_ES/channel.mp3
-#EXTINF:-1 tvg-name="Bistrita FM 92.6", Bistrita FM 92.6
+#EXTINF:-1, Bistrita FM 92.6
 http://radio.garden/api/ara/content/listen/Cucm7fLd/channel.mp3
-#EXTINF:-1 tvg-name="Radio Balada Bistrita FM 89.3", Radio Balada Bistrita FM 89.3
+#EXTINF:-1, Radio Balada Bistrita FM 89.3
 http://radio.garden/api/ara/content/listen/wNP5W0Eq/channel.mp3
-#EXTINF:-1 tvg-name="radio SOMEȘ", radio SOMEȘ
+#EXTINF:-1, radio SOMEȘ
 http://radio.garden/api/ara/content/listen/876dn09L/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania 94.1 FM", Radio Transilvania 94.1 FM
+#EXTINF:-1, Radio Transilvania 94.1 FM
 http://radio.garden/api/ara/content/listen/vsUcbAdx/channel.mp3
-#EXTINF:-1 tvg-name="Radio Blaj FM 96.2", Radio Blaj FM 96.2
+#EXTINF:-1, Radio Blaj FM 96.2
 http://radio.garden/api/ara/content/listen/fr6Juy20/channel.mp3
-#EXTINF:-1 tvg-name="Radio FIX 99.8", Radio FIX 99.8
+#EXTINF:-1, Radio FIX 99.8
 http://radio.garden/api/ara/content/listen/mQmS8HIY/channel.mp3
-#EXTINF:-1 tvg-name="Viva FM Botoșani", Viva FM Botoșani
+#EXTINF:-1, Viva FM Botoșani
 http://radio.garden/api/ara/content/listen/V8YFXQdh/channel.mp3
-#EXTINF:-1 tvg-name="98.2 Nova FM", 98.2 Nova FM
+#EXTINF:-1, 98.2 Nova FM
 http://radio.garden/api/ara/content/listen/8l5c9NM7/channel.mp3
-#EXTINF:-1 tvg-name="Brasov FM 93.3", Brasov FM 93.3
+#EXTINF:-1, Brasov FM 93.3
 http://radio.garden/api/ara/content/listen/QGpOm8W4/channel.mp3
-#EXTINF:-1 tvg-name="DuxRadio", DuxRadio
+#EXTINF:-1, DuxRadio
 http://radio.garden/api/ara/content/listen/AXNDsyF7/channel.mp3
-#EXTINF:-1 tvg-name="Hit FM Brașov 88.2", Hit FM Brașov 88.2
+#EXTINF:-1, Hit FM Brașov 88.2
 http://radio.garden/api/ara/content/listen/7AimKJIe/channel.mp3
-#EXTINF:-1 tvg-name="Korona Rádió", Korona Rádió
+#EXTINF:-1, Korona Rádió
 http://radio.garden/api/ara/content/listen/VyVsfYGf/channel.mp3
-#EXTINF:-1 tvg-name="Radio Brasov FM 87.8", Radio Brasov FM 87.8
+#EXTINF:-1, Radio Brasov FM 87.8
 http://radio.garden/api/ara/content/listen/wNVOfYr0/channel.mp3
-#EXTINF:-1 tvg-name="Radio Chillescu", Radio Chillescu
+#EXTINF:-1, Radio Chillescu
 http://radio.garden/api/ara/content/listen/8olO7nJR/channel.mp3
-#EXTINF:-1 tvg-name="Radio Coresi", Radio Coresi
+#EXTINF:-1, Radio Coresi
 http://radio.garden/api/ara/content/listen/jHBU7TPt/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vocea Evangheliei 94.6 FM", Radio Vocea Evangheliei 94.6 FM
+#EXTINF:-1, Radio Vocea Evangheliei 94.6 FM
 http://radio.garden/api/ara/content/listen/UZuXcRE7/channel.mp3
-#EXTINF:-1 tvg-name="Super FM 93.8", Super FM 93.8
+#EXTINF:-1, Super FM 93.8
 http://radio.garden/api/ara/content/listen/HFt2D7Sl/channel.mp3
-#EXTINF:-1 tvg-name="Radio Hy Braila", Radio Hy Braila
+#EXTINF:-1, Radio Hy Braila
 http://radio.garden/api/ara/content/listen/nRlb6m2o/channel.mp3
-#EXTINF:-1 tvg-name="5FM (Five FM)", 5FM (Five FM)
+#EXTINF:-1, 5FM (Five FM)
 http://radio.garden/api/ara/content/listen/vvOHV0EI/channel.mp3
-#EXTINF:-1 tvg-name="Autobaza Radio", Autobaza Radio
+#EXTINF:-1, Autobaza Radio
 http://radio.garden/api/ara/content/listen/goN2BSRh/channel.mp3
-#EXTINF:-1 tvg-name="Black Rhino Radio", Black Rhino Radio
+#EXTINF:-1, Black Rhino Radio
 http://radio.garden/api/ara/content/listen/uH1tewmB/channel.mp3
-#EXTINF:-1 tvg-name="Capital FM Dance", Capital FM Dance
+#EXTINF:-1, Capital FM Dance
 http://radio.garden/api/ara/content/listen/25PkUgnG/channel.mp3
-#EXTINF:-1 tvg-name="Capital FM Manele", Capital FM Manele
+#EXTINF:-1, Capital FM Manele
 http://radio.garden/api/ara/content/listen/GIvEDSfU/channel.mp3
-#EXTINF:-1 tvg-name="Chill FM", Chill FM
+#EXTINF:-1, Chill FM
 http://radio.garden/api/ara/content/listen/6nRoeaGA/channel.mp3
-#EXTINF:-1 tvg-name="Cross One Radio", Cross One Radio
+#EXTINF:-1, Cross One Radio
 http://radio.garden/api/ara/content/listen/H28GKBb1/channel.mp3
-#EXTINF:-1 tvg-name="Dance FM", Dance FM
+#EXTINF:-1, Dance FM
 http://radio.garden/api/ara/content/listen/EiSGxw3c/channel.mp3
-#EXTINF:-1 tvg-name="Dark Edge Radio", Dark Edge Radio
+#EXTINF:-1, Dark Edge Radio
 http://radio.garden/api/ara/content/listen/NhXYgsgO/channel.mp3
-#EXTINF:-1 tvg-name="Digi 24 FM 103.8", Digi 24 FM 103.8
+#EXTINF:-1, Digi 24 FM 103.8
 http://radio.garden/api/ara/content/listen/PNQza74I/channel.mp3
-#EXTINF:-1 tvg-name="Digi FM 97.9", Digi FM 97.9
+#EXTINF:-1, Digi FM 97.9
 http://radio.garden/api/ara/content/listen/zEtLHIim/channel.mp3
-#EXTINF:-1 tvg-name="DJ Radio Romania", DJ Radio Romania
+#EXTINF:-1, DJ Radio Romania
 http://radio.garden/api/ara/content/listen/0XCrcx2a/channel.mp3
-#EXTINF:-1 tvg-name="eTeatru", eTeatru
+#EXTINF:-1, eTeatru
 http://radio.garden/api/ara/content/listen/vpQqm3xt/channel.mp3
-#EXTINF:-1 tvg-name="Europa FM", Europa FM
+#EXTINF:-1, Europa FM
 http://radio.garden/api/ara/content/listen/TnB1EZBN/channel.mp3
-#EXTINF:-1 tvg-name="FM Radio Manele - Manele", FM Radio Manele - Manele
+#EXTINF:-1, FM Radio Manele - Manele
 http://radio.garden/api/ara/content/listen/2kX80UTT/channel.mp3
-#EXTINF:-1 tvg-name="FM Radio Manele - Petrecere", FM Radio Manele - Petrecere
+#EXTINF:-1, FM Radio Manele - Petrecere
 http://radio.garden/api/ara/content/listen/kAne6PFa/channel.mp3
-#EXTINF:-1 tvg-name="GerlaFM", GerlaFM
+#EXTINF:-1, GerlaFM
 http://radio.garden/api/ara/content/listen/du6gcPTM/channel.mp3
-#EXTINF:-1 tvg-name="Gold FM 96.9", Gold FM 96.9
+#EXTINF:-1, Gold FM 96.9
 http://radio.garden/api/ara/content/listen/rDin58mO/channel.mp3
-#EXTINF:-1 tvg-name="Half Is Enough", Half Is Enough
+#EXTINF:-1, Half Is Enough
 http://radio.garden/api/ara/content/listen/5Vm4L6SI/channel.mp3
-#EXTINF:-1 tvg-name="Intuit FM", Intuit FM
+#EXTINF:-1, Intuit FM
 http://radio.garden/api/ara/content/listen/jzXYec2A/channel.mp3
-#EXTINF:-1 tvg-name="Itsy Bitsy FM", Itsy Bitsy FM
+#EXTINF:-1, Itsy Bitsy FM
 http://radio.garden/api/ara/content/listen/g8EYoiD0/channel.mp3
-#EXTINF:-1 tvg-name="Jazz FM", Jazz FM
+#EXTINF:-1, Jazz FM
 http://radio.garden/api/ara/content/listen/CZHfzftk/channel.mp3
-#EXTINF:-1 tvg-name="Kiss FM", Kiss FM
+#EXTINF:-1, Kiss FM
 http://radio.garden/api/ara/content/listen/hcx4T119/channel.mp3
-#EXTINF:-1 tvg-name="Kiss In the Mix", Kiss In the Mix
+#EXTINF:-1, Kiss In the Mix
 http://radio.garden/api/ara/content/listen/QbeXT0qn/channel.mp3
-#EXTINF:-1 tvg-name="Lounge Avenue", Lounge Avenue
+#EXTINF:-1, Lounge Avenue
 http://radio.garden/api/ara/content/listen/9iwxf22y/channel.mp3
-#EXTINF:-1 tvg-name="Magic 80s Hits", Magic 80s Hits
+#EXTINF:-1, Magic 80s Hits
 http://radio.garden/api/ara/content/listen/qGkWSCaF/channel.mp3
-#EXTINF:-1 tvg-name="Magic 90s Hits", Magic 90s Hits
+#EXTINF:-1, Magic 90s Hits
 http://radio.garden/api/ara/content/listen/SLyQUtCI/channel.mp3
-#EXTINF:-1 tvg-name="Magic FM", Magic FM
+#EXTINF:-1, Magic FM
 http://radio.garden/api/ara/content/listen/82GNMn3f/channel.mp3
-#EXTINF:-1 tvg-name="Magic Gold Hits", Magic Gold Hits
+#EXTINF:-1, Magic Gold Hits
 http://radio.garden/api/ara/content/listen/n8N8mAMw/channel.mp3
-#EXTINF:-1 tvg-name="Magic Lite", Magic Lite
+#EXTINF:-1, Magic Lite
 http://radio.garden/api/ara/content/listen/QLsbFFQW/channel.mp3
-#EXTINF:-1 tvg-name="Magic Movie Hits", Magic Movie Hits
+#EXTINF:-1, Magic Movie Hits
 http://radio.garden/api/ara/content/listen/wWBLvnNO/channel.mp3
-#EXTINF:-1 tvg-name="Magic Party Mix", Magic Party Mix
+#EXTINF:-1, Magic Party Mix
 http://radio.garden/api/ara/content/listen/L7rg1F1q/channel.mp3
-#EXTINF:-1 tvg-name="National FM 91.7 FM", National FM 91.7 FM
+#EXTINF:-1, National FM 91.7 FM
 http://radio.garden/api/ara/content/listen/EoVAkHGo/channel.mp3
-#EXTINF:-1 tvg-name="Nicecream Green", Nicecream Green
+#EXTINF:-1, Nicecream Green
 http://radio.garden/api/ara/content/listen/S6bKtGO1/channel.mp3
-#EXTINF:-1 tvg-name="One FM Romania", One FM Romania
+#EXTINF:-1, One FM Romania
 http://radio.garden/api/ara/content/listen/3ay5gTcr/channel.mp3
-#EXTINF:-1 tvg-name="PlayMusic FM", PlayMusic FM
+#EXTINF:-1, PlayMusic FM
 http://radio.garden/api/ara/content/listen/zyNVnjwX/channel.mp3
-#EXTINF:-1 tvg-name="ProFM", ProFM
+#EXTINF:-1, ProFM
 http://radio.garden/api/ara/content/listen/sNIJsACM/channel.mp3
-#EXTINF:-1 tvg-name="Radio 1 Manele", Radio 1 Manele
+#EXTINF:-1, Radio 1 Manele
 http://radio.garden/api/ara/content/listen/hJVAaIV8/channel.mp3
-#EXTINF:-1 tvg-name="Radio 7 Romania", Radio 7 Romania
+#EXTINF:-1, Radio 7 Romania
 http://radio.garden/api/ara/content/listen/Rlcp2TP2/channel.mp3
-#EXTINF:-1 tvg-name="Radio 80", Radio 80
+#EXTINF:-1, Radio 80
 http://radio.garden/api/ara/content/listen/woIXftJg/channel.mp3
-#EXTINF:-1 tvg-name="Radio Aquila", Radio Aquila
+#EXTINF:-1, Radio Aquila
 http://radio.garden/api/ara/content/listen/pPgw-Oj7/channel.mp3
-#EXTINF:-1 tvg-name="Radio A-Tentat", Radio A-Tentat
+#EXTINF:-1, Radio A-Tentat
 http://radio.garden/api/ara/content/listen/lXMcoCqk/channel.mp3
-#EXTINF:-1 tvg-name="Radio Bandit", Radio Bandit
+#EXTINF:-1, Radio Bandit
 http://radio.garden/api/ara/content/listen/vQyxHEx6/channel.mp3
-#EXTINF:-1 tvg-name="Radio Bandit - 90s", Radio Bandit - 90s
+#EXTINF:-1, Radio Bandit - 90s
 http://radio.garden/api/ara/content/listen/CVYXRVmA/channel.mp3
-#EXTINF:-1 tvg-name="Radio București FM 98.3", Radio București FM 98.3
+#EXTINF:-1, Radio București FM 98.3
 http://radio.garden/api/ara/content/listen/0nxelm2f/channel.mp3
-#EXTINF:-1 tvg-name="Radio Cafe", Radio Cafe
+#EXTINF:-1, Radio Cafe
 http://radio.garden/api/ara/content/listen/6uY9DeJI/channel.mp3
-#EXTINF:-1 tvg-name="Radio Crazy Romania", Radio Crazy Romania
+#EXTINF:-1, Radio Crazy Romania
 http://radio.garden/api/ara/content/listen/W3dsd3Mg/channel.mp3
-#EXTINF:-1 tvg-name="Radio DA", Radio DA
+#EXTINF:-1, Radio DA
 http://radio.garden/api/ara/content/listen/Elslluob/channel.mp3
-#EXTINF:-1 tvg-name="Radio Damici FM", Radio Damici FM
+#EXTINF:-1, Radio Damici FM
 http://radio.garden/api/ara/content/listen/UZiMG5XE/channel.mp3
-#EXTINF:-1 tvg-name="Radio DEEA", Radio DEEA
+#EXTINF:-1, Radio DEEA
 http://radio.garden/api/ara/content/listen/XA4Np56Y/channel.mp3
-#EXTINF:-1 tvg-name="Radio Dor", Radio Dor
+#EXTINF:-1, Radio Dor
 http://radio.garden/api/ara/content/listen/OFC3kAWV/channel.mp3
-#EXTINF:-1 tvg-name="Radio Fain & Simplu", Radio Fain & Simplu
+#EXTINF:-1, Radio Fain & Simplu
 http://radio.garden/api/ara/content/listen/XxCCWeL-/channel.mp3
-#EXTINF:-1 tvg-name="Radio Filadelfia", Radio Filadelfia
+#EXTINF:-1, Radio Filadelfia
 http://radio.garden/api/ara/content/listen/GwUqW6Ih/channel.mp3
-#EXTINF:-1 tvg-name="Radio Filadelfia Antiohia", Radio Filadelfia Antiohia
+#EXTINF:-1, Radio Filadelfia Antiohia
 http://radio.garden/api/ara/content/listen/R2IDgf3X/channel.mp3
-#EXTINF:-1 tvg-name="Radio Filadelfia Special", Radio Filadelfia Special
+#EXTINF:-1, Radio Filadelfia Special
 http://radio.garden/api/ara/content/listen/37ePN6dK/channel.mp3
-#EXTINF:-1 tvg-name="Radio Folclor", Radio Folclor
+#EXTINF:-1, Radio Folclor
 http://radio.garden/api/ara/content/listen/aFrtQ2Ow/channel.mp3
-#EXTINF:-1 tvg-name="Radio Fx Net", Radio Fx Net
+#EXTINF:-1, Radio Fx Net
 http://radio.garden/api/ara/content/listen/VDaeWVOX/channel.mp3
-#EXTINF:-1 tvg-name="Radio Gangsta Dance", Radio Gangsta Dance
+#EXTINF:-1, Radio Gangsta Dance
 http://radio.garden/api/ara/content/listen/BeUoYwJ6/channel.mp3
-#EXTINF:-1 tvg-name="Radio Gangsta Manele", Radio Gangsta Manele
+#EXTINF:-1, Radio Gangsta Manele
 http://radio.garden/api/ara/content/listen/2ghHk2bS/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Colinde", Radio GMusic Colinde
+#EXTINF:-1, Radio GMusic Colinde
 http://radio.garden/api/ara/content/listen/qSKH4CWr/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Dance", Radio GMusic Dance
+#EXTINF:-1, Radio GMusic Dance
 http://radio.garden/api/ara/content/listen/g4nEqkOC/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Planet Funk", Radio GMusic Planet Funk
+#EXTINF:-1, Radio GMusic Planet Funk
 http://radio.garden/api/ara/content/listen/Tp5E5Olk/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Relax Garden", Radio GMusic Relax Garden
+#EXTINF:-1, Radio GMusic Relax Garden
 http://radio.garden/api/ara/content/listen/vBwafGos/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Retro", Radio GMusic Retro
+#EXTINF:-1, Radio GMusic Retro
 http://radio.garden/api/ara/content/listen/Usvh6rfU/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Rock", Radio GMusic Rock
+#EXTINF:-1, Radio GMusic Rock
 http://radio.garden/api/ara/content/listen/cBOfdTDB/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Soft", Radio GMusic Soft
+#EXTINF:-1, Radio GMusic Soft
 http://radio.garden/api/ara/content/listen/BbHDpXCu/channel.mp3
-#EXTINF:-1 tvg-name="Radio GMusic Trap", Radio GMusic Trap
+#EXTINF:-1, Radio GMusic Trap
 http://radio.garden/api/ara/content/listen/UxkyFKZt/channel.mp3
-#EXTINF:-1 tvg-name="Radio Guerilla FM 94.8", Radio Guerilla FM 94.8
+#EXTINF:-1, Radio Guerilla FM 94.8
 http://radio.garden/api/ara/content/listen/ru8txSnF/channel.mp3
-#EXTINF:-1 tvg-name="Radio HiT FM Petrecere", Radio HiT FM Petrecere
+#EXTINF:-1, Radio HiT FM Petrecere
 http://radio.garden/api/ara/content/listen/srdqeBfc/channel.mp3
-#EXTINF:-1 tvg-name="Radio Hit Romania", Radio Hit Romania
+#EXTINF:-1, Radio Hit Romania
 http://radio.garden/api/ara/content/listen/fHYyRZVl/channel.mp3
-#EXTINF:-1 tvg-name="Radio Hot Style", Radio Hot Style
+#EXTINF:-1, Radio Hot Style
 http://radio.garden/api/ara/content/listen/A31WwwgH/channel.mp3
-#EXTINF:-1 tvg-name="Radio Intens", Radio Intens
+#EXTINF:-1, Radio Intens
 http://radio.garden/api/ara/content/listen/z0CaVzRs/channel.mp3
-#EXTINF:-1 tvg-name="Radio Lautaru Popular", Radio Lautaru Popular
+#EXTINF:-1, Radio Lautaru Popular
 http://radio.garden/api/ara/content/listen/IrEkmVco/channel.mp3
-#EXTINF:-1 tvg-name="Radio Mega-HiT", Radio Mega-HiT
+#EXTINF:-1, Radio Mega-HiT
 http://radio.garden/api/ara/content/listen/tcLyM2H2/channel.mp3
-#EXTINF:-1 tvg-name="Radio Mega-Hit Chill", Radio Mega-Hit Chill
+#EXTINF:-1, Radio Mega-Hit Chill
 http://radio.garden/api/ara/content/listen/QHSQWT7w/channel.mp3
-#EXTINF:-1 tvg-name="Radio Mega-HiT Popular", Radio Mega-HiT Popular
+#EXTINF:-1, Radio Mega-HiT Popular
 http://radio.garden/api/ara/content/listen/bI4JgEQJ/channel.mp3
-#EXTINF:-1 tvg-name="Radio Mix Craiova", Radio Mix Craiova
+#EXTINF:-1, Radio Mix Craiova
 http://radio.garden/api/ara/content/listen/gulrl7p5/channel.mp3
-#EXTINF:-1 tvg-name="Radio Nebunya Manele", Radio Nebunya Manele
+#EXTINF:-1, Radio Nebunya Manele
 http://radio.garden/api/ara/content/listen/dZhrAhWX/channel.mp3
-#EXTINF:-1 tvg-name="Radio Noise HipHop", Radio Noise HipHop
+#EXTINF:-1, Radio Noise HipHop
 http://radio.garden/api/ara/content/listen/bqjIHL5V/channel.mp3
-#EXTINF:-1 tvg-name="Radio Noise Rock", Radio Noise Rock
+#EXTINF:-1, Radio Noise Rock
 http://radio.garden/api/ara/content/listen/3egIMy8v/channel.mp3
-#EXTINF:-1 tvg-name="Radio Noise Romania", Radio Noise Romania
+#EXTINF:-1, Radio Noise Romania
 http://radio.garden/api/ara/content/listen/lP1V4dwY/channel.mp3
-#EXTINF:-1 tvg-name="Radio Nova22", Radio Nova22
+#EXTINF:-1, Radio Nova22
 http://radio.garden/api/ara/content/listen/HQsGsCSk/channel.mp3
-#EXTINF:-1 tvg-name="Radio Oldies Romania", Radio Oldies Romania
+#EXTINF:-1, Radio Oldies Romania
 http://radio.garden/api/ara/content/listen/BUCovFco/channel.mp3
-#EXTINF:-1 tvg-name="Radio OM Bun", Radio OM Bun
+#EXTINF:-1, Radio OM Bun
 http://radio.garden/api/ara/content/listen/M6n1kU6j/channel.mp3
-#EXTINF:-1 tvg-name="Radio Paradiz Ambient", Radio Paradiz Ambient
+#EXTINF:-1, Radio Paradiz Ambient
 http://radio.garden/api/ara/content/listen/hIhdhEJq/channel.mp3
-#EXTINF:-1 tvg-name="Radio Paradiz Beats", Radio Paradiz Beats
+#EXTINF:-1, Radio Paradiz Beats
 http://radio.garden/api/ara/content/listen/cAMXw7gi/channel.mp3
-#EXTINF:-1 tvg-name="Radio Paradiz Deep House", Radio Paradiz Deep House
+#EXTINF:-1, Radio Paradiz Deep House
 http://radio.garden/api/ara/content/listen/pbkX7mYo/channel.mp3
-#EXTINF:-1 tvg-name="Radio Petrecăretzu", Radio Petrecăretzu
+#EXTINF:-1, Radio Petrecăretzu
 http://radio.garden/api/ara/content/listen/CpMHVWXS/channel.mp3
-#EXTINF:-1 tvg-name="Radio Poema", Radio Poema
+#EXTINF:-1, Radio Poema
 http://radio.garden/api/ara/content/listen/cPTTZduv/channel.mp3
-#EXTINF:-1 tvg-name="Radio Pro-B", Radio Pro-B
+#EXTINF:-1, Radio Pro-B
 http://radio.garden/api/ara/content/listen/scalv8EX/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romance 21", Radio Romance 21
+#EXTINF:-1, Radio Romance 21
 http://radio.garden/api/ara/content/listen/RLVz6OVD/channel.mp3
-#EXTINF:-1 tvg-name="Radio România 3 Net", Radio România 3 Net
+#EXTINF:-1, Radio România 3 Net
 http://radio.garden/api/ara/content/listen/LGgDAUD4/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Actualități", Radio România Actualități
+#EXTINF:-1, Radio România Actualități
 http://radio.garden/api/ara/content/listen/2ae9soNh/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Cultural", Radio România Cultural
+#EXTINF:-1, Radio România Cultural
 http://radio.garden/api/ara/content/listen/h5qdjG39/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Internațional 1", Radio România Internațional 1
+#EXTINF:-1, Radio România Internațional 1
 http://radio.garden/api/ara/content/listen/fkoGQgx5/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Internațional 2", Radio România Internațional 2
+#EXTINF:-1, Radio România Internațional 2
 http://radio.garden/api/ara/content/listen/Z3Ij0pSk/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Internațional 3", Radio România Internațional 3
+#EXTINF:-1, Radio România Internațional 3
 http://radio.garden/api/ara/content/listen/xQS0h5uh/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romania Junior", Radio Romania Junior
+#EXTINF:-1, Radio Romania Junior
 http://radio.garden/api/ara/content/listen/YMTMpfZ2/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romania Muzical 97.6 FM", Radio Romania Muzical 97.6 FM
+#EXTINF:-1, Radio Romania Muzical 97.6 FM
 http://radio.garden/api/ara/content/listen/LirhA81K/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romantic", Radio Romantic
+#EXTINF:-1, Radio Romantic
 http://radio.garden/api/ara/content/listen/UlGWlEjA/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romantic Manele Vechi", Radio Romantic Manele Vechi
+#EXTINF:-1, Radio Romantic Manele Vechi
 http://radio.garden/api/ara/content/listen/LopdNaqk/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romantic Populară", Radio Romantic Populară
+#EXTINF:-1, Radio Romantic Populară
 http://radio.garden/api/ara/content/listen/ELdlupd8/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romantic Teatru Radiofonic", Radio Romantic Teatru Radiofonic
+#EXTINF:-1, Radio Romantic Teatru Radiofonic
 http://radio.garden/api/ara/content/listen/FZHxPzJW/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romantic Unda Veselă", Radio Romantic Unda Veselă
+#EXTINF:-1, Radio Romantic Unda Veselă
 http://radio.garden/api/ara/content/listen/0n7DKxWC/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sun Colinde Romania", Radio Sun Colinde Romania
+#EXTINF:-1, Radio Sun Colinde Romania
 http://radio.garden/api/ara/content/listen/SFF3BVBk/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sun Dance Romania", Radio Sun Dance Romania
+#EXTINF:-1, Radio Sun Dance Romania
 http://radio.garden/api/ara/content/listen/pEPj3mUc/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sun Folk Romania", Radio Sun Folk Romania
+#EXTINF:-1, Radio Sun Folk Romania
 http://radio.garden/api/ara/content/listen/4yXMJhf3/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sun Gold Hits Romania", Radio Sun Gold Hits Romania
+#EXTINF:-1, Radio Sun Gold Hits Romania
 http://radio.garden/api/ara/content/listen/0R2EeEZd/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sun Lounge Romania", Radio Sun Lounge Romania
+#EXTINF:-1, Radio Sun Lounge Romania
 http://radio.garden/api/ara/content/listen/JWU2ngpp/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sun Romania", Radio Sun Romania
+#EXTINF:-1, Radio Sun Romania
 http://radio.garden/api/ara/content/listen/6I6ka77M/channel.mp3
-#EXTINF:-1 tvg-name="Radio Taraf Manele", Radio Taraf Manele
+#EXTINF:-1, Radio Taraf Manele
 http://radio.garden/api/ara/content/listen/e69olbMY/channel.mp3
-#EXTINF:-1 tvg-name="Radio Taraf Romania", Radio Taraf Romania
+#EXTINF:-1, Radio Taraf Romania
 http://radio.garden/api/ara/content/listen/jX_jwDXG/channel.mp3
-#EXTINF:-1 tvg-name="Radio Teatru Radiofonic", Radio Teatru Radiofonic
+#EXTINF:-1, Radio Teatru Radiofonic
 http://radio.garden/api/ara/content/listen/ipKKwvkf/channel.mp3
-#EXTINF:-1 tvg-name="Radio Tequila Hip-Hop", Radio Tequila Hip-Hop
+#EXTINF:-1, Radio Tequila Hip-Hop
 http://radio.garden/api/ara/content/listen/V2zsi_E6/channel.mp3
-#EXTINF:-1 tvg-name="Radio Tequila Petrecere", Radio Tequila Petrecere
+#EXTINF:-1, Radio Tequila Petrecere
 http://radio.garden/api/ara/content/listen/wlMFsz6F/channel.mp3
-#EXTINF:-1 tvg-name="Radio TRIB", Radio TRIB
+#EXTINF:-1, Radio TRIB
 http://radio.garden/api/ara/content/listen/EAPkg2xp/channel.mp3
-#EXTINF:-1 tvg-name="Radio Unique", Radio Unique
+#EXTINF:-1, Radio Unique
 http://radio.garden/api/ara/content/listen/OmEbjJ3m/channel.mp3
-#EXTINF:-1 tvg-name="Radio X Net Manele", Radio X Net Manele
+#EXTINF:-1, Radio X Net Manele
 http://radio.garden/api/ara/content/listen/imy2bzOr/channel.mp3
-#EXTINF:-1 tvg-name="Radio Zen", Radio Zen
+#EXTINF:-1, Radio Zen
 http://radio.garden/api/ara/content/listen/IFVOCjEN/channel.mp3
-#EXTINF:-1 tvg-name="Radio ZU", Radio ZU
+#EXTINF:-1, Radio ZU
 http://radio.garden/api/ara/content/listen/FH5ZEO5S/channel.mp3
-#EXTINF:-1 tvg-name="RFI România", RFI România
+#EXTINF:-1, RFI România
 http://radio.garden/api/ara/content/listen/eBPifAAu/channel.mp3
-#EXTINF:-1 tvg-name="Rock FM Ballads", Rock FM Ballads
+#EXTINF:-1, Rock FM Ballads
 http://radio.garden/api/ara/content/listen/qCJor8l9/channel.mp3
-#EXTINF:-1 tvg-name="Rock FM Blues", Rock FM Blues
+#EXTINF:-1, Rock FM Blues
 http://radio.garden/api/ara/content/listen/WXDJ1MJf/channel.mp3
-#EXTINF:-1 tvg-name="Rock FM Hard Rock", Rock FM Hard Rock
+#EXTINF:-1, Rock FM Hard Rock
 http://radio.garden/api/ara/content/listen/BF8y9fgB/channel.mp3
-#EXTINF:-1 tvg-name="Rock FM Romania", Rock FM Romania
+#EXTINF:-1, Rock FM Romania
 http://radio.garden/api/ara/content/listen/4raoqmON/channel.mp3
-#EXTINF:-1 tvg-name="Rockradio.ro", Rockradio.ro
+#EXTINF:-1, Rockradio.ro
 http://radio.garden/api/ara/content/listen/jhOsSord/channel.mp3
-#EXTINF:-1 tvg-name="RVE Bucuresti", RVE Bucuresti
+#EXTINF:-1, RVE Bucuresti
 http://radio.garden/api/ara/content/listen/xEAam5f0/channel.mp3
-#EXTINF:-1 tvg-name="Smart AltRo", Smart AltRo
+#EXTINF:-1, Smart AltRo
 http://radio.garden/api/ara/content/listen/6jzD_4xm/channel.mp3
-#EXTINF:-1 tvg-name="Smart And Groovy", Smart And Groovy
+#EXTINF:-1, Smart And Groovy
 http://radio.garden/api/ara/content/listen/KtWXJnrN/channel.mp3
-#EXTINF:-1 tvg-name="Smart Auto Total", Smart Auto Total
+#EXTINF:-1, Smart Auto Total
 http://radio.garden/api/ara/content/listen/J42zVqd8/channel.mp3
-#EXTINF:-1 tvg-name="Smart Champs-Elysees", Smart Champs-Elysees
+#EXTINF:-1, Smart Champs-Elysees
 http://radio.garden/api/ara/content/listen/rrNNx89i/channel.mp3
-#EXTINF:-1 tvg-name="Smart Christmas", Smart Christmas
+#EXTINF:-1, Smart Christmas
 http://radio.garden/api/ara/content/listen/q8lRSjJS/channel.mp3
-#EXTINF:-1 tvg-name="Smart FM 107.3", Smart FM 107.3
+#EXTINF:-1, Smart FM 107.3
 http://radio.garden/api/ara/content/listen/oH477rlB/channel.mp3
-#EXTINF:-1 tvg-name="Smart In Lounge", Smart In Lounge
+#EXTINF:-1, Smart In Lounge
 http://radio.garden/api/ara/content/listen/WJB8bILX/channel.mp3
-#EXTINF:-1 tvg-name="Smart Move", Smart Move
+#EXTINF:-1, Smart Move
 http://radio.garden/api/ara/content/listen/sEu5phGz/channel.mp3
-#EXTINF:-1 tvg-name="Smart 'N' Roll", Smart 'N' Roll
+#EXTINF:-1, Smart 'N' Roll
 http://radio.garden/api/ara/content/listen/bgl3Is4k/channel.mp3
-#EXTINF:-1 tvg-name="Smart On Soundtrack", Smart On Soundtrack
+#EXTINF:-1, Smart On Soundtrack
 http://radio.garden/api/ara/content/listen/pKLws31Z/channel.mp3
-#EXTINF:-1 tvg-name="Smart On Trend", Smart On Trend
+#EXTINF:-1, Smart On Trend
 http://radio.garden/api/ara/content/listen/xduK9X0j/channel.mp3
-#EXTINF:-1 tvg-name="Smart Oxford Street", Smart Oxford Street
+#EXTINF:-1, Smart Oxford Street
 http://radio.garden/api/ara/content/listen/iY7bAyj8/channel.mp3
-#EXTINF:-1 tvg-name="Smart Rave", Smart Rave
+#EXTINF:-1, Smart Rave
 http://radio.garden/api/ara/content/listen/8TCWgKlH/channel.mp3
-#EXTINF:-1 tvg-name="Smart Street", Smart Street
+#EXTINF:-1, Smart Street
 http://radio.garden/api/ara/content/listen/PrQhuuNw/channel.mp3
-#EXTINF:-1 tvg-name="Smart Sunset Boulevard", Smart Sunset Boulevard
+#EXTINF:-1, Smart Sunset Boulevard
 http://radio.garden/api/ara/content/listen/sIhGKGHH/channel.mp3
-#EXTINF:-1 tvg-name="Smart The Fusion", Smart The Fusion
+#EXTINF:-1, Smart The Fusion
 http://radio.garden/api/ara/content/listen/6kDU9OY_/channel.mp3
-#EXTINF:-1 tvg-name="SRR Antena Satelor", SRR Antena Satelor
+#EXTINF:-1, SRR Antena Satelor
 http://radio.garden/api/ara/content/listen/ITufP2Gf/channel.mp3
-#EXTINF:-1 tvg-name="SRR Bucuresti FM", SRR Bucuresti FM
+#EXTINF:-1, SRR Bucuresti FM
 http://radio.garden/api/ara/content/listen/tW19zMbY/channel.mp3
-#EXTINF:-1 tvg-name="Urbansunsets", Urbansunsets
+#EXTINF:-1, Urbansunsets
 http://radio.garden/api/ara/content/listen/WAbPLPep/channel.mp3
-#EXTINF:-1 tvg-name="Virgin Radio FM 97.1", Virgin Radio FM 97.1
+#EXTINF:-1, Virgin Radio FM 97.1
 http://radio.garden/api/ara/content/listen/OExr8ZZy/channel.mp3
-#EXTINF:-1 tvg-name="Vocea Sperantei FM 94.2", Vocea Sperantei FM 94.2
+#EXTINF:-1, Vocea Sperantei FM 94.2
 http://radio.garden/api/ara/content/listen/bAD498v8/channel.mp3
-#EXTINF:-1 tvg-name="Focus FM", Focus FM
+#EXTINF:-1, Focus FM
 http://radio.garden/api/ara/content/listen/8m8gkzWb/channel.mp3
-#EXTINF:-1 tvg-name="Radio AS Petrecere 95.5 FM", Radio AS Petrecere 95.5 FM
+#EXTINF:-1, Radio AS Petrecere 95.5 FM
 http://radio.garden/api/ara/content/listen/fspVD7qj/channel.mp3
-#EXTINF:-1 tvg-name="Radio Campus FM98", Radio Campus FM98
+#EXTINF:-1, Radio Campus FM98
 http://radio.garden/api/ara/content/listen/JJ1Z-iGp/channel.mp3
-#EXTINF:-1 tvg-name="Radio Folclor Buzău", Radio Folclor Buzău
+#EXTINF:-1, Radio Folclor Buzău
 http://radio.garden/api/ara/content/listen/stCOGtBm/channel.mp3
-#EXTINF:-1 tvg-name="Radio Pro Manele", Radio Pro Manele
+#EXTINF:-1, Radio Pro Manele
 http://radio.garden/api/ara/content/listen/hB9G8GgF/channel.mp3
-#EXTINF:-1 tvg-name="Supersonic Radio", Supersonic Radio
+#EXTINF:-1, Supersonic Radio
 http://radio.garden/api/ara/content/listen/a4inr2nJ/channel.mp3
-#EXTINF:-1 tvg-name="Radio Eco Natura", Radio Eco Natura
+#EXTINF:-1, Radio Eco Natura
 http://radio.garden/api/ara/content/listen/TKliKu9y/channel.mp3
-#EXTINF:-1 tvg-name="Radio Băilești Oltenia", Radio Băilești Oltenia
+#EXTINF:-1, Radio Băilești Oltenia
 http://radio.garden/api/ara/content/listen/Xk5CIbVO/channel.mp3
-#EXTINF:-1 tvg-name="Radio Terra", Radio Terra
+#EXTINF:-1, Radio Terra
 http://radio.garden/api/ara/content/listen/Quq8tY4D/channel.mp3
-#EXTINF:-1 tvg-name="Agnus Radio", Agnus Radio
+#EXTINF:-1, Agnus Radio
 http://radio.garden/api/ara/content/listen/rXlPSv-4/channel.mp3
-#EXTINF:-1 tvg-name="EBS 90.4 FM", EBS 90.4 FM
+#EXTINF:-1, EBS 90.4 FM
 http://radio.garden/api/ara/content/listen/D6bUGN5N/channel.mp3
-#EXTINF:-1 tvg-name="EBS Alternative", EBS Alternative
+#EXTINF:-1, EBS Alternative
 http://radio.garden/api/ara/content/listen/VILsSQaW/channel.mp3
-#EXTINF:-1 tvg-name="EBS Blues", EBS Blues
+#EXTINF:-1, EBS Blues
 http://radio.garden/api/ara/content/listen/WGP8HthG/channel.mp3
-#EXTINF:-1 tvg-name="EBS Cantece de Petrecere", EBS Cantece de Petrecere
+#EXTINF:-1, EBS Cantece de Petrecere
 http://radio.garden/api/ara/content/listen/bQRr7BvG/channel.mp3
-#EXTINF:-1 tvg-name="EBS Classical", EBS Classical
+#EXTINF:-1, EBS Classical
 http://radio.garden/api/ara/content/listen/AOsrSwDF/channel.mp3
-#EXTINF:-1 tvg-name="EBS Dolce Vita", EBS Dolce Vita
+#EXTINF:-1, EBS Dolce Vita
 http://radio.garden/api/ara/content/listen/psTsuQvy/channel.mp3
-#EXTINF:-1 tvg-name="EBS Electro", EBS Electro
+#EXTINF:-1, EBS Electro
 http://radio.garden/api/ara/content/listen/YCm6xF12/channel.mp3
-#EXTINF:-1 tvg-name="EBS Fresco", EBS Fresco
+#EXTINF:-1, EBS Fresco
 http://radio.garden/api/ara/content/listen/vNXBNmW6/channel.mp3
-#EXTINF:-1 tvg-name="EBS Jazz", EBS Jazz
+#EXTINF:-1, EBS Jazz
 http://radio.garden/api/ara/content/listen/olohZVbQ/channel.mp3
-#EXTINF:-1 tvg-name="EBS Local", EBS Local
+#EXTINF:-1, EBS Local
 http://radio.garden/api/ara/content/listen/W9o9g2VP/channel.mp3
-#EXTINF:-1 tvg-name="EBS Lounge", EBS Lounge
+#EXTINF:-1, EBS Lounge
 http://radio.garden/api/ara/content/listen/wCxEshZI/channel.mp3
-#EXTINF:-1 tvg-name="EBS Magyar Zene", EBS Magyar Zene
+#EXTINF:-1, EBS Magyar Zene
 http://radio.garden/api/ara/content/listen/Ay8koB5D/channel.mp3
-#EXTINF:-1 tvg-name="EBS Movie Soundtracks", EBS Movie Soundtracks
+#EXTINF:-1, EBS Movie Soundtracks
 http://radio.garden/api/ara/content/listen/qNc1esSH/channel.mp3
-#EXTINF:-1 tvg-name="EBS Music", EBS Music
+#EXTINF:-1, EBS Music
 http://radio.garden/api/ara/content/listen/5zXZPXG2/channel.mp3
-#EXTINF:-1 tvg-name="EBS Nostalgie", EBS Nostalgie
+#EXTINF:-1, EBS Nostalgie
 http://radio.garden/api/ara/content/listen/9B6Ms8gK/channel.mp3
-#EXTINF:-1 tvg-name="EBS Nouvelle Vague", EBS Nouvelle Vague
+#EXTINF:-1, EBS Nouvelle Vague
 http://radio.garden/api/ara/content/listen/aJkZsVVa/channel.mp3
-#EXTINF:-1 tvg-name="EBS Romanian Folk", EBS Romanian Folk
+#EXTINF:-1, EBS Romanian Folk
 http://radio.garden/api/ara/content/listen/aopBsME4/channel.mp3
-#EXTINF:-1 tvg-name="EBS Romanian Gold", EBS Romanian Gold
+#EXTINF:-1, EBS Romanian Gold
 http://radio.garden/api/ara/content/listen/PEUCBRFe/channel.mp3
-#EXTINF:-1 tvg-name="EBS Xmas", EBS Xmas
+#EXTINF:-1, EBS Xmas
 http://radio.garden/api/ara/content/listen/nIoy6y65/channel.mp3
-#EXTINF:-1 tvg-name="Impuls Radio", Impuls Radio
+#EXTINF:-1, Impuls Radio
 http://radio.garden/api/ara/content/listen/svlQGaK1/channel.mp3
-#EXTINF:-1 tvg-name="Kolozsvári Rádió Románia", Kolozsvári Rádió Románia
+#EXTINF:-1, Kolozsvári Rádió Románia
 http://radio.garden/api/ara/content/listen/D2fy02dj/channel.mp3
-#EXTINF:-1 tvg-name="Napoca FM 102.2", Napoca FM 102.2
+#EXTINF:-1, Napoca FM 102.2
 http://radio.garden/api/ara/content/listen/9OTPDkRD/channel.mp3
-#EXTINF:-1 tvg-name="Napoca FM Rock", Napoca FM Rock
+#EXTINF:-1, Napoca FM Rock
 http://radio.garden/api/ara/content/listen/dTP06WH1/channel.mp3
-#EXTINF:-1 tvg-name="paprika rádió", paprika rádió
+#EXTINF:-1, paprika rádió
 http://radio.garden/api/ara/content/listen/wjmyDFsl/channel.mp3
-#EXTINF:-1 tvg-name="Radio Domeldo Live", Radio Domeldo Live
+#EXTINF:-1, Radio Domeldo Live
 http://radio.garden/api/ara/content/listen/OgjA7LsI/channel.mp3
-#EXTINF:-1 tvg-name="Radio Domeldo Movie", Radio Domeldo Movie
+#EXTINF:-1, Radio Domeldo Movie
 http://radio.garden/api/ara/content/listen/Ge43BtcM/channel.mp3
-#EXTINF:-1 tvg-name="Radio Renașterea", Radio Renașterea
+#EXTINF:-1, Radio Renașterea
 http://radio.garden/api/ara/content/listen/N4y06MVC/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Cluj", Radio România Cluj
+#EXTINF:-1, Radio România Cluj
 http://radio.garden/api/ara/content/listen/Qk8slau4/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania 94.5 FM", Radio Transilvania 94.5 FM
+#EXTINF:-1, Radio Transilvania 94.5 FM
 http://radio.garden/api/ara/content/listen/ZBF3SbDX/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vocea Evangheliei 88.3 FM", Radio Vocea Evangheliei 88.3 FM
+#EXTINF:-1, Radio Vocea Evangheliei 88.3 FM
 http://radio.garden/api/ara/content/listen/dpeNkUDO/channel.mp3
-#EXTINF:-1 tvg-name="Radio Wish", Radio Wish
+#EXTINF:-1, Radio Wish
 http://radio.garden/api/ara/content/listen/lVejKdbM/channel.mp3
-#EXTINF:-1 tvg-name="UBB Radio", UBB Radio
+#EXTINF:-1, UBB Radio
 http://radio.garden/api/ara/content/listen/bUG53vmy/channel.mp3
-#EXTINF:-1 tvg-name="Untold Radio", Untold Radio
+#EXTINF:-1, Untold Radio
 http://radio.garden/api/ara/content/listen/KIqBJBxW/channel.mp3
-#EXTINF:-1 tvg-name="MB Music Radio", MB Music Radio
+#EXTINF:-1, MB Music Radio
 http://radio.garden/api/ara/content/listen/K8QT7VKA/channel.mp3
-#EXTINF:-1 tvg-name="Next Radio", Next Radio
+#EXTINF:-1, Next Radio
 http://radio.garden/api/ara/content/listen/p5KTG_57/channel.mp3
-#EXTINF:-1 tvg-name="Play 90s", Play 90s
+#EXTINF:-1, Play 90s
 http://radio.garden/api/ara/content/listen/KfQYZkw0/channel.mp3
-#EXTINF:-1 tvg-name="Play Café", Play Café
+#EXTINF:-1, Play Café
 http://radio.garden/api/ara/content/listen/0qqJJCrW/channel.mp3
-#EXTINF:-1 tvg-name="Play Radio 91.6 FM", Play Radio 91.6 FM
+#EXTINF:-1, Play Radio 91.6 FM
 http://radio.garden/api/ara/content/listen/7UQ4J3vV/channel.mp3
-#EXTINF:-1 tvg-name="Play Urban", Play Urban
+#EXTINF:-1, Play Urban
 http://radio.garden/api/ara/content/listen/U7auOq79/channel.mp3
-#EXTINF:-1 tvg-name="Radio CFM 92.9", Radio CFM 92.9
+#EXTINF:-1, Radio CFM 92.9
 http://radio.garden/api/ara/content/listen/4a6P2PXK/channel.mp3
-#EXTINF:-1 tvg-name="Radio Constanța", Radio Constanța
+#EXTINF:-1, Radio Constanța
 http://radio.garden/api/ara/content/listen/p2Snuctv/channel.mp3
-#EXTINF:-1 tvg-name="Radio Dobrogea", Radio Dobrogea
+#EXTINF:-1, Radio Dobrogea
 http://radio.garden/api/ara/content/listen/UhLlp62L/channel.mp3
-#EXTINF:-1 tvg-name="Radio Doina FM 94.7", Radio Doina FM 94.7
+#EXTINF:-1, Radio Doina FM 94.7
 http://radio.garden/api/ara/content/listen/zNT5QdrT/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vacanța FM 100.1", Radio Vacanța FM 100.1
+#EXTINF:-1, Radio Vacanța FM 100.1
 http://radio.garden/api/ara/content/listen/llxCqMX4/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vacanța - Fresh", Radio Vacanța - Fresh
+#EXTINF:-1, Radio Vacanța - Fresh
 http://radio.garden/api/ara/content/listen/x7fpIBeY/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vacanța - Gold", Radio Vacanța - Gold
+#EXTINF:-1, Radio Vacanța - Gold
 http://radio.garden/api/ara/content/listen/1dQBCRxo/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vacanța - Nostalgia", Radio Vacanța - Nostalgia
+#EXTINF:-1, Radio Vacanța - Nostalgia
 http://radio.garden/api/ara/content/listen/FDCIqHqL/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vocea Evangheliei 104.4 FM", Radio Vocea Evangheliei 104.4 FM
+#EXTINF:-1, Radio Vocea Evangheliei 104.4 FM
 http://radio.garden/api/ara/content/listen/WgwfVR0h/channel.mp3
-#EXTINF:-1 tvg-name="Sky FM 101.1", Sky FM 101.1
+#EXTINF:-1, Sky FM 101.1
 http://radio.garden/api/ara/content/listen/ayHoWNXV/channel.mp3
-#EXTINF:-1 tvg-name="Sweet FM 95.9", Sweet FM 95.9
+#EXTINF:-1, Sweet FM 95.9
 http://radio.garden/api/ara/content/listen/e6VbxNlD/channel.mp3
-#EXTINF:-1 tvg-name="Space FM Dance", Space FM Dance
+#EXTINF:-1, Space FM Dance
 http://radio.garden/api/ara/content/listen/eBHaTvC1/channel.mp3
-#EXTINF:-1 tvg-name="SpaceFM Retro", SpaceFM Retro
+#EXTINF:-1, SpaceFM Retro
 http://radio.garden/api/ara/content/listen/IpwxZ7nm/channel.mp3
-#EXTINF:-1 tvg-name="Radio Oltenia 99.8 FM", Radio Oltenia 99.8 FM
+#EXTINF:-1, Radio Oltenia 99.8 FM
 http://radio.garden/api/ara/content/listen/W3ywILAn/channel.mp3
-#EXTINF:-1 tvg-name="Radio Popular România", Radio Popular România
+#EXTINF:-1, Radio Popular România
 http://radio.garden/api/ara/content/listen/s_S9mQzo/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sud FM 97.4", Radio Sud FM 97.4
+#EXTINF:-1, Radio Sud FM 97.4
 http://radio.garden/api/ara/content/listen/1W62HKcM/channel.mp3
-#EXTINF:-1 tvg-name="Muscel FM 94.1", Muscel FM 94.1
+#EXTINF:-1, Muscel FM 94.1
 http://radio.garden/api/ara/content/listen/cX35o5KA/channel.mp3
-#EXTINF:-1 tvg-name="Radio Orion FM 96.6", Radio Orion FM 96.6
+#EXTINF:-1, Radio Orion FM 96.6
 http://radio.garden/api/ara/content/listen/C073lT5A/channel.mp3
-#EXTINF:-1 tvg-name="Radio Iubire", Radio Iubire
+#EXTINF:-1, Radio Iubire
 http://radio.garden/api/ara/content/listen/FMIqWLw0/channel.mp3
-#EXTINF:-1 tvg-name="Stil Radio 105.5 FM", Stil Radio 105.5 FM
+#EXTINF:-1, Stil Radio 105.5 FM
 http://radio.garden/api/ara/content/listen/fkXg88Sg/channel.mp3
-#EXTINF:-1 tvg-name="Vocea Campi FM 101.1", Vocea Campi FM 101.1
+#EXTINF:-1, Vocea Campi FM 101.1
 http://radio.garden/api/ara/content/listen/vbfxYzi5/channel.mp3
-#EXTINF:-1 tvg-name="Stil FM 106.1", Stil FM 106.1
+#EXTINF:-1, Stil FM 106.1
 http://radio.garden/api/ara/content/listen/Kb12WM5K/channel.mp3
-#EXTINF:-1 tvg-name="Big FM", Big FM
+#EXTINF:-1, Big FM
 http://radio.garden/api/ara/content/listen/y3ywxZAR/channel.mp3
-#EXTINF:-1 tvg-name="Radio Galaxy 100.6 FM", Radio Galaxy 100.6 FM
+#EXTINF:-1, Radio Galaxy 100.6 FM
 http://radio.garden/api/ara/content/listen/2fOLtrV6/channel.mp3
-#EXTINF:-1 tvg-name="Radio Orion 91.7 FM", Radio Orion 91.7 FM
+#EXTINF:-1, Radio Orion 91.7 FM
 http://radio.garden/api/ara/content/listen/uzsIeQSl/channel.mp3
-#EXTINF:-1 tvg-name="Squad Radio", Squad Radio
+#EXTINF:-1, Squad Radio
 http://radio.garden/api/ara/content/listen/4aGW34wd/channel.mp3
-#EXTINF:-1 tvg-name="Radio Dada FM 106.6", Radio Dada FM 106.6
+#EXTINF:-1, Radio Dada FM 106.6
 http://radio.garden/api/ara/content/listen/BxpKFnbe/channel.mp3
-#EXTINF:-1 tvg-name="Szépvíz FM 101.7", Szépvíz FM 101.7
+#EXTINF:-1, Szépvíz FM 101.7
 http://radio.garden/api/ara/content/listen/m8jZrOhs/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - 100% Românesc", Radio Clasic - 100% Românesc
+#EXTINF:-1, Radio Clasic - 100% Românesc
 http://radio.garden/api/ara/content/listen/kl91Y5UY/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - 60", Radio Clasic - 60
+#EXTINF:-1, Radio Clasic - 60
 http://radio.garden/api/ara/content/listen/N6Oq8nSr/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - 80", Radio Clasic - 80
+#EXTINF:-1, Radio Clasic - 80
 http://radio.garden/api/ara/content/listen/Pmfzcllf/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - 90", Radio Clasic - 90
+#EXTINF:-1, Radio Clasic - 90
 http://radio.garden/api/ara/content/listen/s8UlylBp/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - AltRock", Radio Clasic - AltRock
+#EXTINF:-1, Radio Clasic - AltRock
 http://radio.garden/api/ara/content/listen/VS6QTbRy/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Bach", Radio Clasic - Bach
+#EXTINF:-1, Radio Clasic - Bach
 http://radio.garden/api/ara/content/listen/CRkwWFoF/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Beethoven", Radio Clasic - Beethoven
+#EXTINF:-1, Radio Clasic - Beethoven
 http://radio.garden/api/ara/content/listen/GkAOGdQ4/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Blue Jazz", Radio Clasic - Blue Jazz
+#EXTINF:-1, Radio Clasic - Blue Jazz
 http://radio.garden/api/ara/content/listen/Gqhcu0jb/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Blues", Radio Clasic - Blues
+#EXTINF:-1, Radio Clasic - Blues
 http://radio.garden/api/ara/content/listen/3P729e10/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Chopin", Radio Clasic - Chopin
+#EXTINF:-1, Radio Clasic - Chopin
 http://radio.garden/api/ara/content/listen/JLjaT3yw/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Christmas", Radio Clasic - Christmas
+#EXTINF:-1, Radio Clasic - Christmas
 http://radio.garden/api/ara/content/listen/VNPCWz0J/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Country", Radio Clasic - Country
+#EXTINF:-1, Radio Clasic - Country
 http://radio.garden/api/ara/content/listen/rCWd4waA/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Crossover", Radio Clasic - Crossover
+#EXTINF:-1, Radio Clasic - Crossover
 http://radio.garden/api/ara/content/listen/sadfkW4F/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic FM 90.9", Radio Clasic FM 90.9
+#EXTINF:-1, Radio Clasic FM 90.9
 http://radio.garden/api/ara/content/listen/k17X55pO/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Folk", Radio Clasic - Folk
+#EXTINF:-1, Radio Clasic - Folk
 http://radio.garden/api/ara/content/listen/pMmx8o8Z/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Hits", Radio Clasic - Hits
+#EXTINF:-1, Radio Clasic - Hits
 http://radio.garden/api/ara/content/listen/iv1W0OSp/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Indie", Radio Clasic - Indie
+#EXTINF:-1, Radio Clasic - Indie
 http://radio.garden/api/ara/content/listen/tpaLZzRE/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Jazz", Radio Clasic - Jazz
+#EXTINF:-1, Radio Clasic - Jazz
 http://radio.garden/api/ara/content/listen/qF5fMlyS/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Kids", Radio Clasic - Kids
+#EXTINF:-1, Radio Clasic - Kids
 http://radio.garden/api/ara/content/listen/i38v0SmS/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Latino", Radio Clasic - Latino
+#EXTINF:-1, Radio Clasic - Latino
 http://radio.garden/api/ara/content/listen/Z3IJ8Wax/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Love", Radio Clasic - Love
+#EXTINF:-1, Radio Clasic - Love
 http://radio.garden/api/ara/content/listen/dWfgpFaj/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Mozart", Radio Clasic - Mozart
+#EXTINF:-1, Radio Clasic - Mozart
 http://radio.garden/api/ara/content/listen/aT8Tv6JA/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Opera", Radio Clasic - Opera
+#EXTINF:-1, Radio Clasic - Opera
 http://radio.garden/api/ara/content/listen/B8nV6UGh/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Popular", Radio Clasic - Popular
+#EXTINF:-1, Radio Clasic - Popular
 http://radio.garden/api/ara/content/listen/qx7gF8YU/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Relax", Radio Clasic - Relax
+#EXTINF:-1, Radio Clasic - Relax
 http://radio.garden/api/ara/content/listen/dK4Zi1lg/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - R'n'B", Radio Clasic - R'n'B
+#EXTINF:-1, Radio Clasic - R'n'B
 http://radio.garden/api/ara/content/listen/XYu2yxFl/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Rock", Radio Clasic - Rock
+#EXTINF:-1, Radio Clasic - Rock
 http://radio.garden/api/ara/content/listen/VHzC3O1m/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Smooth", Radio Clasic - Smooth
+#EXTINF:-1, Radio Clasic - Smooth
 http://radio.garden/api/ara/content/listen/EOFoYBKE/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Soundtrack", Radio Clasic - Soundtrack
+#EXTINF:-1, Radio Clasic - Soundtrack
 http://radio.garden/api/ara/content/listen/zsmwxMQD/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Strauss", Radio Clasic - Strauss
+#EXTINF:-1, Radio Clasic - Strauss
 http://radio.garden/api/ara/content/listen/jLt4uuLZ/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - SummerHits", Radio Clasic - SummerHits
+#EXTINF:-1, Radio Clasic - SummerHits
 http://radio.garden/api/ara/content/listen/ixWtUDm3/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Symphony", Radio Clasic - Symphony
+#EXTINF:-1, Radio Clasic - Symphony
 http://radio.garden/api/ara/content/listen/BlccPq4c/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Tchaikovsky", Radio Clasic - Tchaikovsky
+#EXTINF:-1, Radio Clasic - Tchaikovsky
 http://radio.garden/api/ara/content/listen/5UBMAlHq/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Top 40", Radio Clasic - Top 40
+#EXTINF:-1, Radio Clasic - Top 40
 http://radio.garden/api/ara/content/listen/9IEwUDjs/channel.mp3
-#EXTINF:-1 tvg-name="Radio Clasic - Vivaldi", Radio Clasic - Vivaldi
+#EXTINF:-1, Radio Clasic - Vivaldi
 http://radio.garden/api/ara/content/listen/wCrBY7BD/channel.mp3
-#EXTINF:-1 tvg-name="Mood On Music #Deep", Mood On Music #Deep
+#EXTINF:-1, Mood On Music #Deep
 http://radio.garden/api/ara/content/listen/Txgr7Xd8/channel.mp3
-#EXTINF:-1 tvg-name="Pro Lider FM 92.4", Pro Lider FM 92.4
+#EXTINF:-1, Pro Lider FM 92.4
 http://radio.garden/api/ara/content/listen/sb0PJPBX/channel.mp3
-#EXTINF:-1 tvg-name="Gherla FM", Gherla FM
+#EXTINF:-1, Gherla FM
 http://radio.garden/api/ara/content/listen/5mIfmpZt/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romanian Colinde", Radio Romanian Colinde
+#EXTINF:-1, Radio Romanian Colinde
 http://radio.garden/api/ara/content/listen/Loay1C4E/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romanian Dance", Radio Romanian Dance
+#EXTINF:-1, Radio Romanian Dance
 http://radio.garden/api/ara/content/listen/Omubtizn/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romanian Disco", Radio Romanian Disco
+#EXTINF:-1, Radio Romanian Disco
 http://radio.garden/api/ara/content/listen/GQlxom0G/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romanian Hip-Hop", Radio Romanian Hip-Hop
+#EXTINF:-1, Radio Romanian Hip-Hop
 http://radio.garden/api/ara/content/listen/p9E6bhCW/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romanian Manele", Radio Romanian Manele
+#EXTINF:-1, Radio Romanian Manele
 http://radio.garden/api/ara/content/listen/LZlaCNWi/channel.mp3
-#EXTINF:-1 tvg-name="Radio Romanian Popular", Radio Romanian Popular
+#EXTINF:-1, Radio Romanian Popular
 http://radio.garden/api/ara/content/listen/ZjpyJlTn/channel.mp3
-#EXTINF:-1 tvg-name="Radio Kibuț", Radio Kibuț
+#EXTINF:-1, Radio Kibuț
 http://radio.garden/api/ara/content/listen/OfipPZ-4/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vocea Evangheliei 98.0 FM", Radio Vocea Evangheliei 98.0 FM
+#EXTINF:-1, Radio Vocea Evangheliei 98.0 FM
 http://radio.garden/api/ara/content/listen/xYyEk5tV/channel.mp3
-#EXTINF:-1 tvg-name="Radio Mynele Manele", Radio Mynele Manele
+#EXTINF:-1, Radio Mynele Manele
 http://radio.garden/api/ara/content/listen/ynEkn1Ws/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vip FM", Radio Vip FM
+#EXTINF:-1, Radio Vip FM
 http://radio.garden/api/ara/content/listen/GvAo0gDU/channel.mp3
-#EXTINF:-1 tvg-name="Ercis FM", Ercis FM
+#EXTINF:-1, Ercis FM
 http://radio.garden/api/ara/content/listen/s7OF9pWT/channel.mp3
-#EXTINF:-1 tvg-name="G1 Radio Clasic", G1 Radio Clasic
+#EXTINF:-1, G1 Radio Clasic
 http://radio.garden/api/ara/content/listen/88rcY8XO/channel.mp3
-#EXTINF:-1 tvg-name="G1 Radio Dance", G1 Radio Dance
+#EXTINF:-1, G1 Radio Dance
 http://radio.garden/api/ara/content/listen/1J4rOR3D/channel.mp3
-#EXTINF:-1 tvg-name="Radio Armonia", Radio Armonia
+#EXTINF:-1, Radio Armonia
 http://radio.garden/api/ara/content/listen/QpP3DiNO/channel.mp3
-#EXTINF:-1 tvg-name="Radio Doxologia", Radio Doxologia
+#EXTINF:-1, Radio Doxologia
 http://radio.garden/api/ara/content/listen/8NsiMoTU/channel.mp3
-#EXTINF:-1 tvg-name="Radio Hit", Radio Hit
+#EXTINF:-1, Radio Hit
 http://radio.garden/api/ara/content/listen/aQWKhd0N/channel.mp3
-#EXTINF:-1 tvg-name="Radio Regional", Radio Regional
+#EXTINF:-1, Radio Regional
 http://radio.garden/api/ara/content/listen/vbzjnEg5/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Iași", Radio România Iași
+#EXTINF:-1, Radio România Iași
 http://radio.garden/api/ara/content/listen/RFOmxOLD/channel.mp3
-#EXTINF:-1 tvg-name="Radio Terranova", Radio Terranova
+#EXTINF:-1, Radio Terranova
 http://radio.garden/api/ara/content/listen/gAxuBVLv/channel.mp3
-#EXTINF:-1 tvg-name="Rock Now Radio", Rock Now Radio
+#EXTINF:-1, Rock Now Radio
 http://radio.garden/api/ara/content/listen/YuElNoe7/channel.mp3
-#EXTINF:-1 tvg-name="Viva FM Iasi", Viva FM Iasi
+#EXTINF:-1, Viva FM Iasi
 http://radio.garden/api/ara/content/listen/8OFfX4jy/channel.mp3
-#EXTINF:-1 tvg-name="Leordeni FM 106.8", Leordeni FM 106.8
+#EXTINF:-1, Leordeni FM 106.8
 http://radio.garden/api/ara/content/listen/P7E1GrBX/channel.mp3
-#EXTINF:-1 tvg-name="Radio Lipova", Radio Lipova
+#EXTINF:-1, Radio Lipova
 http://radio.garden/api/ara/content/listen/quzNeSdQ/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania FM 100.4", Radio Transilvania FM 100.4
+#EXTINF:-1, Radio Transilvania FM 100.4
 http://radio.garden/api/ara/content/listen/Dn7lMuDR/channel.mp3
-#EXTINF:-1 tvg-name="Copahavana", Copahavana
+#EXTINF:-1, Copahavana
 http://radio.garden/api/ara/content/listen/40nvnibN/channel.mp3
-#EXTINF:-1 tvg-name="Radio Kiss Mangalia FM (Pyranda)", Radio Kiss Mangalia FM (Pyranda)
+#EXTINF:-1, Radio Kiss Mangalia FM (Pyranda)
 http://radio.garden/api/ara/content/listen/Pvn8tfzq/channel.mp3
-#EXTINF:-1 tvg-name="Radio Medias 725", Radio Medias 725
+#EXTINF:-1, Radio Medias 725
 http://radio.garden/api/ara/content/listen/vWteGpdE/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania 97.2 FM", Radio Transilvania 97.2 FM
+#EXTINF:-1, Radio Transilvania 97.2 FM
 http://radio.garden/api/ara/content/listen/9aWijW2X/channel.mp3
-#EXTINF:-1 tvg-name="Fun FM 87.6", Fun FM 87.6
+#EXTINF:-1, Fun FM 87.6
 http://radio.garden/api/ara/content/listen/e6IMVPkX/channel.mp3
-#EXTINF:-1 tvg-name="Retro Radio", Retro Radio
+#EXTINF:-1, Retro Radio
 http://radio.garden/api/ara/content/listen/qyLTeoo6/channel.mp3
-#EXTINF:-1 tvg-name="Shuffle FM", Shuffle FM
+#EXTINF:-1, Shuffle FM
 http://radio.garden/api/ara/content/listen/MccZ0ZUO/channel.mp3
-#EXTINF:-1 tvg-name="Radio 9 FM 106.6", Radio 9 FM 106.6
+#EXTINF:-1, Radio 9 FM 106.6
 http://radio.garden/api/ara/content/listen/F8fLOchw/channel.mp3
-#EXTINF:-1 tvg-name="Radio Deep", Radio Deep
+#EXTINF:-1, Radio Deep
 http://radio.garden/api/ara/content/listen/YYpIyLuG/channel.mp3
-#EXTINF:-1 tvg-name="Régió Rádió", Régió Rádió
+#EXTINF:-1, Régió Rádió
 http://radio.garden/api/ara/content/listen/eZ4NNWab/channel.mp3
-#EXTINF:-1 tvg-name="Star Radio", Star Radio
+#EXTINF:-1, Star Radio
 http://radio.garden/api/ara/content/listen/TKDunywJ/channel.mp3
-#EXTINF:-1 tvg-name="Dream FM 92.2", Dream FM 92.2
+#EXTINF:-1, Dream FM 92.2
 http://radio.garden/api/ara/content/listen/XQf9YYPD/channel.mp3
-#EXTINF:-1 tvg-name="Mária Rádió Erdély", Mária Rádió Erdély
+#EXTINF:-1, Mária Rádió Erdély
 http://radio.garden/api/ara/content/listen/CZrg0ynZ/channel.mp3
-#EXTINF:-1 tvg-name="Plusz+ FM 89.6", Plusz+ FM 89.6
+#EXTINF:-1, Plusz+ FM 89.6
 http://radio.garden/api/ara/content/listen/sIkKeNad/channel.mp3
-#EXTINF:-1 tvg-name="Radio Maria România", Radio Maria România
+#EXTINF:-1, Radio Maria România
 http://radio.garden/api/ara/content/listen/BqedQBJC/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania FM 97.2", Radio Transilvania FM 97.2
+#EXTINF:-1, Radio Transilvania FM 97.2
 http://radio.garden/api/ara/content/listen/TEsZMS0O/channel.mp3
-#EXTINF:-1 tvg-name="RVE International", RVE International
+#EXTINF:-1, RVE International
 http://radio.garden/api/ara/content/listen/CATnNShI/channel.mp3
-#EXTINF:-1 tvg-name="RVE Muzică", RVE Muzică
+#EXTINF:-1, RVE Muzică
 http://radio.garden/api/ara/content/listen/ef1GV4V3/channel.mp3
-#EXTINF:-1 tvg-name="RVE Oradea", RVE Oradea
+#EXTINF:-1, RVE Oradea
 http://radio.garden/api/ara/content/listen/uzrrXeB8/channel.mp3
-#EXTINF:-1 tvg-name="RVE Predici", RVE Predici
+#EXTINF:-1, RVE Predici
 http://radio.garden/api/ara/content/listen/7MRHa5cz/channel.mp3
-#EXTINF:-1 tvg-name="Radio Color 90.3 FM", Radio Color 90.3 FM
+#EXTINF:-1, Radio Color 90.3 FM
 http://radio.garden/api/ara/content/listen/toRb2722/channel.mp3
-#EXTINF:-1 tvg-name="News FM Pascani", News FM Pascani
+#EXTINF:-1, News FM Pascani
 http://radio.garden/api/ara/content/listen/t-d7lgvf/channel.mp3
-#EXTINF:-1 tvg-name="Jurnal FM 92", Jurnal FM 92
+#EXTINF:-1, Jurnal FM 92
 http://radio.garden/api/ara/content/listen/qxT6QpFS/channel.mp3
-#EXTINF:-1 tvg-name="Radio 1 FM", Radio 1 FM
+#EXTINF:-1, Radio 1 FM
 http://radio.garden/api/ara/content/listen/gHDiVDyg/channel.mp3
-#EXTINF:-1 tvg-name="Radio FanFM-RO", Radio FanFM-RO
+#EXTINF:-1, Radio FanFM-RO
 http://radio.garden/api/ara/content/listen/4pZrXTZk/channel.mp3
-#EXTINF:-1 tvg-name="Terra FM", Terra FM
+#EXTINF:-1, Terra FM
 http://radio.garden/api/ara/content/listen/FJJTd2Xt/channel.mp3
-#EXTINF:-1 tvg-name="MFM Dance 105.7", MFM Dance 105.7
+#EXTINF:-1, MFM Dance 105.7
 http://radio.garden/api/ara/content/listen/EypxCVnJ/channel.mp3
-#EXTINF:-1 tvg-name="Radio Stabil Pitesti", Radio Stabil Pitesti
+#EXTINF:-1, Radio Stabil Pitesti
 http://radio.garden/api/ara/content/listen/ekFPkG5F/channel.mp3
-#EXTINF:-1 tvg-name="Disco Mix", Disco Mix
+#EXTINF:-1, Disco Mix
 http://radio.garden/api/ara/content/listen/90lJcbza/channel.mp3
-#EXTINF:-1 tvg-name="Play Radio Hit", Play Radio Hit
+#EXTINF:-1, Play Radio Hit
 http://radio.garden/api/ara/content/listen/Zo683bxO/channel.mp3
-#EXTINF:-1 tvg-name="Radio Pro Music 90s", Radio Pro Music 90s
+#EXTINF:-1, Radio Pro Music 90s
 http://radio.garden/api/ara/content/listen/5ENd5RcR/channel.mp3
-#EXTINF:-1 tvg-name="Radio SOS", Radio SOS
+#EXTINF:-1, Radio SOS
 http://radio.garden/api/ara/content/listen/8G5BhSjU/channel.mp3
-#EXTINF:-1 tvg-name="Rph Radio Prahova", Rph Radio Prahova
+#EXTINF:-1, Rph Radio Prahova
 http://radio.garden/api/ara/content/listen/FbkOlCIE/channel.mp3
-#EXTINF:-1 tvg-name="Radio Radeni FM", Radio Radeni FM
+#EXTINF:-1, Radio Radeni FM
 http://radio.garden/api/ara/content/listen/mwVUf2-M/channel.mp3
-#EXTINF:-1 tvg-name="Rádió GaGa", Rádió GaGa
+#EXTINF:-1, Rádió GaGa
 http://radio.garden/api/ara/content/listen/4oesIPkP/channel.mp3
-#EXTINF:-1 tvg-name="Banat FM 101.2", Banat FM 101.2
+#EXTINF:-1, Banat FM 101.2
 http://radio.garden/api/ara/content/listen/rxLnn5ew/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Reșița FM 105.6", Radio România Reșița FM 105.6
+#EXTINF:-1, Radio România Reșița FM 105.6
 http://radio.garden/api/ara/content/listen/nNTJlETj/channel.mp3
-#EXTINF:-1 tvg-name="SRR Radio Resita", SRR Radio Resita
+#EXTINF:-1, SRR Radio Resita
 http://radio.garden/api/ara/content/listen/LAx0cRRL/channel.mp3
-#EXTINF:-1 tvg-name="transilvania.online", transilvania.online
+#EXTINF:-1, transilvania.online
 http://radio.garden/api/ara/content/listen/39qNx1XK/channel.mp3
-#EXTINF:-1 tvg-name="Roman FM 94.2", Roman FM 94.2
+#EXTINF:-1, Roman FM 94.2
 http://radio.garden/api/ara/content/listen/xJGfnCV2/channel.mp3
-#EXTINF:-1 tvg-name="Metronom FM", Metronom FM
+#EXTINF:-1, Metronom FM
 http://radio.garden/api/ara/content/listen/cl2ghgYu/channel.mp3
-#EXTINF:-1 tvg-name="Radio MusicTown", Radio MusicTown
+#EXTINF:-1, Radio MusicTown
 http://radio.garden/api/ara/content/listen/ec8ksDla/channel.mp3
-#EXTINF:-1 tvg-name="City Rádió", City Rádió
+#EXTINF:-1, City Rádió
 http://radio.garden/api/ara/content/listen/UnhuX0Bl/channel.mp3
-#EXTINF:-1 tvg-name="Radio Master", Radio Master
+#EXTINF:-1, Radio Master
 http://radio.garden/api/ara/content/listen/WZYVaJYg/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania 99 FM", Radio Transilvania 99 FM
+#EXTINF:-1, Radio Transilvania 99 FM
 http://radio.garden/api/ara/content/listen/6qf2kPQ2/channel.mp3
-#EXTINF:-1 tvg-name="Radio Unu", Radio Unu
+#EXTINF:-1, Radio Unu
 http://radio.garden/api/ara/content/listen/xO5dLKJr/channel.mp3
-#EXTINF:-1 tvg-name="Star FM 90.1", Star FM 90.1
+#EXTINF:-1, Star FM 90.1
 http://radio.garden/api/ara/content/listen/NEKnbH7S/channel.mp3
-#EXTINF:-1 tvg-name="Erdélyi Magyar Rádió", Erdélyi Magyar Rádió
+#EXTINF:-1, Erdélyi Magyar Rádió
 http://radio.garden/api/ara/content/listen/ExeyiD5E/channel.mp3
-#EXTINF:-1 tvg-name="Sepsi Rádió 98.5 FM", Sepsi Rádió 98.5 FM
+#EXTINF:-1, Sepsi Rádió 98.5 FM
 http://radio.garden/api/ara/content/listen/BWq2elll/channel.mp3
-#EXTINF:-1 tvg-name="We Radio 91 FM", We Radio 91 FM
+#EXTINF:-1, We Radio 91 FM
 http://radio.garden/api/ara/content/listen/aWDekAGc/channel.mp3
-#EXTINF:-1 tvg-name="City FM 98.3", City FM 98.3
+#EXTINF:-1, City FM 98.3
 http://radio.garden/api/ara/content/listen/08FBPUqv/channel.mp3
-#EXTINF:-1 tvg-name="Eveniment FM 103.2", Eveniment FM 103.2
+#EXTINF:-1, Eveniment FM 103.2
 http://radio.garden/api/ara/content/listen/gvjyCh8h/channel.mp3
-#EXTINF:-1 tvg-name="Go FM", Go FM
+#EXTINF:-1, Go FM
 http://radio.garden/api/ara/content/listen/c1dxur2L/channel.mp3
-#EXTINF:-1 tvg-name="Marlene Radio", Marlene Radio
+#EXTINF:-1, Marlene Radio
 http://radio.garden/api/ara/content/listen/NGivloud/channel.mp3
-#EXTINF:-1 tvg-name="Radio Oastea Domnului", Radio Oastea Domnului
+#EXTINF:-1, Radio Oastea Domnului
 http://radio.garden/api/ara/content/listen/Xle0V78m/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vestea Bună", Radio Vestea Bună
+#EXTINF:-1, Radio Vestea Bună
 http://radio.garden/api/ara/content/listen/31KjwSvB/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vocea Evangheliei 89.4 FM", Radio Vocea Evangheliei 89.4 FM
+#EXTINF:-1, Radio Vocea Evangheliei 89.4 FM
 http://radio.garden/api/ara/content/listen/szBzyw1F/channel.mp3
-#EXTINF:-1 tvg-name="RVE Sibiu", RVE Sibiu
+#EXTINF:-1, RVE Sibiu
 http://radio.garden/api/ara/content/listen/FYzVxUSa/channel.mp3
-#EXTINF:-1 tvg-name="Radio Sighet AM 1404", Radio Sighet AM 1404
+#EXTINF:-1, Radio Sighet AM 1404
 http://radio.garden/api/ara/content/listen/lTtnruzc/channel.mp3
-#EXTINF:-1 tvg-name="Radio Son FM 89.5", Radio Son FM 89.5
+#EXTINF:-1, Radio Son FM 89.5
 http://radio.garden/api/ara/content/listen/v9KDy6lT/channel.mp3
-#EXTINF:-1 tvg-name="Fresh FM 105.6", Fresh FM 105.6
+#EXTINF:-1, Fresh FM 105.6
 http://radio.garden/api/ara/content/listen/5PWBxS2j/channel.mp3
-#EXTINF:-1 tvg-name="Radio RFM 103.1", Radio RFM 103.1
+#EXTINF:-1, Radio RFM 103.1
 http://radio.garden/api/ara/content/listen/mIz2TT59/channel.mp3
-#EXTINF:-1 tvg-name="Alpimur Radio", Alpimur Radio
+#EXTINF:-1, Alpimur Radio
 http://radio.garden/api/ara/content/listen/X0AI5Vum/channel.mp3
-#EXTINF:-1 tvg-name="Radio AS", Radio AS
+#EXTINF:-1, Radio AS
 http://radio.garden/api/ara/content/listen/prS2Xc1p/channel.mp3
-#EXTINF:-1 tvg-name="Radio Top 104", Radio Top 104
+#EXTINF:-1, Radio Top 104
 http://radio.garden/api/ara/content/listen/m20X-LKh/channel.mp3
-#EXTINF:-1 tvg-name="Radio USV", Radio USV
+#EXTINF:-1, Radio USV
 http://radio.garden/api/ara/content/listen/xJfdrjKo/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vocea Evangheliei 94.2 FM", Radio Vocea Evangheliei 94.2 FM
+#EXTINF:-1, Radio Vocea Evangheliei 94.2 FM
 http://radio.garden/api/ara/content/listen/crpyYtK0/channel.mp3
-#EXTINF:-1 tvg-name="RVESV", RVESV
+#EXTINF:-1, RVESV
 http://radio.garden/api/ara/content/listen/hrP38BF_/channel.mp3
-#EXTINF:-1 tvg-name="Viva FM Suceava", Viva FM Suceava
+#EXTINF:-1, Viva FM Suceava
 http://radio.garden/api/ara/content/listen/hUIVYoho/channel.mp3
-#EXTINF:-1 tvg-name="Radio Flora TM", Radio Flora TM
+#EXTINF:-1, Radio Flora TM
 http://radio.garden/api/ara/content/listen/yqP_v8CY/channel.mp3
-#EXTINF:-1 tvg-name="Radio Poema", Radio Poema
+#EXTINF:-1, Radio Poema
 http://radio.garden/api/ara/content/listen/kbAcLPjG/channel.mp3
-#EXTINF:-1 tvg-name="RadioTimiBanat Eurodisco", RadioTimiBanat Eurodisco
+#EXTINF:-1, RadioTimiBanat Eurodisco
 http://radio.garden/api/ara/content/listen/gLbXTp8h/channel.mp3
-#EXTINF:-1 tvg-name="Radio TimiBanat Populară", Radio TimiBanat Populară
+#EXTINF:-1, Radio TimiBanat Populară
 http://radio.garden/api/ara/content/listen/VmNpDyBG/channel.mp3
-#EXTINF:-1 tvg-name="Radio Timișoara AM 630", Radio Timișoara AM 630
+#EXTINF:-1, Radio Timișoara AM 630
 http://radio.garden/api/ara/content/listen/oJ13wcg3/channel.mp3
-#EXTINF:-1 tvg-name="Radio Timișoara FM 105.9", Radio Timișoara FM 105.9
+#EXTINF:-1, Radio Timișoara FM 105.9
 http://radio.garden/api/ara/content/listen/qA68M3Fj/channel.mp3
-#EXTINF:-1 tvg-name="Radio Vocea Evangheliei 92.2 FM", Radio Vocea Evangheliei 92.2 FM
+#EXTINF:-1, Radio Vocea Evangheliei 92.2 FM
 http://radio.garden/api/ara/content/listen/IPirZ1Rb/channel.mp3
-#EXTINF:-1 tvg-name="West City Radio FM 88.8", West City Radio FM 88.8
+#EXTINF:-1, West City Radio FM 88.8
 http://radio.garden/api/ara/content/listen/n9aLAxM6/channel.mp3
-#EXTINF:-1 tvg-name="Hit FM Harghita 89.5", Hit FM Harghita 89.5
+#EXTINF:-1, Hit FM Harghita 89.5
 http://radio.garden/api/ara/content/listen/dz1yQYrg/channel.mp3
-#EXTINF:-1 tvg-name="Radio Delta 95.8 FM", Radio Delta 95.8 FM
+#EXTINF:-1, Radio Delta 95.8 FM
 http://radio.garden/api/ara/content/listen/uO78dDN8/channel.mp3
-#EXTINF:-1 tvg-name="Radio Enigma Hit", Radio Enigma Hit
+#EXTINF:-1, Radio Enigma Hit
 http://radio.garden/api/ara/content/listen/U6Mf6Yqw/channel.mp3
-#EXTINF:-1 tvg-name="Radio Turda 107.7 FM", Radio Turda 107.7 FM
+#EXTINF:-1, Radio Turda 107.7 FM
 http://radio.garden/api/ara/content/listen/u1qMV7z4/channel.mp3
-#EXTINF:-1 tvg-name="MDI FM 88.1", MDI FM 88.1
+#EXTINF:-1, MDI FM 88.1
 http://radio.garden/api/ara/content/listen/vzmoXHkH/channel.mp3
-#EXTINF:-1 tvg-name="Infinit FM 87.8", Infinit FM 87.8
+#EXTINF:-1, Infinit FM 87.8
 http://radio.garden/api/ara/content/listen/x4afxxxO/channel.mp3
-#EXTINF:-1 tvg-name="Radio Accent 96.2 FM", Radio Accent 96.2 FM
+#EXTINF:-1, Radio Accent 96.2 FM
 http://radio.garden/api/ara/content/listen/cDAEokNN/channel.mp3
-#EXTINF:-1 tvg-name="Erdely FM", Erdely FM
+#EXTINF:-1, Erdely FM
 http://radio.garden/api/ara/content/listen/o6zzHIeb/channel.mp3
-#EXTINF:-1 tvg-name="Marosvásárhelyi Rádió FM 106.8", Marosvásárhelyi Rádió FM 106.8
+#EXTINF:-1, Marosvásárhelyi Rádió FM 106.8
 http://radio.garden/api/ara/content/listen/hL5BRzIJ/channel.mp3
-#EXTINF:-1 tvg-name="Radio Gaga", Radio Gaga
+#EXTINF:-1, Radio Gaga
 http://radio.garden/api/ara/content/listen/docFmVhS/channel.mp3
-#EXTINF:-1 tvg-name="Rádió Koko Marosvásárhely", Rádió Koko Marosvásárhely
+#EXTINF:-1, Rádió Koko Marosvásárhely
 http://radio.garden/api/ara/content/listen/PZ7pk9GS/channel.mp3
-#EXTINF:-1 tvg-name="Radio KPTV", Radio KPTV
+#EXTINF:-1, Radio KPTV
 http://radio.garden/api/ara/content/listen/keaHKXcG/channel.mp3
-#EXTINF:-1 tvg-name="Radio România Târgu Mureș", Radio România Târgu Mureș
+#EXTINF:-1, Radio România Târgu Mureș
 http://radio.garden/api/ara/content/listen/eLD53GdV/channel.mp3
-#EXTINF:-1 tvg-name="SUP Radio", SUP Radio
+#EXTINF:-1, SUP Radio
 http://radio.garden/api/ara/content/listen/lmCfBQpy/channel.mp3
-#EXTINF:-1 tvg-name="Radio M Plus 95.7", Radio M Plus 95.7
+#EXTINF:-1, Radio M Plus 95.7
 http://radio.garden/api/ara/content/listen/tjZE4n6B/channel.mp3
-#EXTINF:-1 tvg-name="Profi Radio 94.0 FM", Profi Radio 94.0 FM
+#EXTINF:-1, Profi Radio 94.0 FM
 http://radio.garden/api/ara/content/listen/WAosKzXS/channel.mp3
-#EXTINF:-1 tvg-name="Radio AS Tarnaveni 107.1 FM", Radio AS Tarnaveni 107.1 FM
+#EXTINF:-1, Radio AS Tarnaveni 107.1 FM
 http://radio.garden/api/ara/content/listen/dfaXdMTB/channel.mp3
-#EXTINF:-1 tvg-name="Extravaganza Radio", Extravaganza Radio
+#EXTINF:-1, Extravaganza Radio
 http://radio.garden/api/ara/content/listen/1efx2wPL/channel.mp3
-#EXTINF:-1 tvg-name="90s 3NeRgY", 90s 3NeRgY
+#EXTINF:-1, 90s 3NeRgY
 http://radio.garden/api/ara/content/listen/DMcDpfN1/channel.mp3
-#EXTINF:-1 tvg-name="Radio Transilvania 94.6 FM", Radio Transilvania 94.6 FM
+#EXTINF:-1, Radio Transilvania 94.6 FM
 http://radio.garden/api/ara/content/listen/v78iQT9q/channel.mp3
-#EXTINF:-1 tvg-name="RVE Zalău", RVE Zalău
+#EXTINF:-1, RVE Zalău
 http://radio.garden/api/ara/content/listen/pYAY6owV/channel.mp3
