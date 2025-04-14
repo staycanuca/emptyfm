@@ -565,3 +565,5 @@ https://ssl.radios.show/8026/;
 http://media.xseu.net/FavoriteFM
 #EXTINF:-1,Radio RFI Romania
 https://asculta.radiorfi.ro/live.mp3
+#EXTINF:-1,Radio Itsy Bitsy
+https://cors.oxusescu.workers.dev/?url=https://live.itsybitsy.ro:8443/itsybitsy
